@@ -24,21 +24,21 @@ export const admissionsContent = {
       { label: "How to Apply", href: "/admissions/how-to-apply" },
       { label: "Requirements for Admission", href: "/admissions/requirements-for-admission" },
       { label: "Our Admissions Team", href: "/admissions/our-admissions-team" },
-      { label: "Academic Calendar", href: "/admissions/calendar" },
-      { label: "Student Handbook", href: "/admissions/handbook" },
+      { label: "Academic Calendar", href: "/admissions/academic-calendar" },
+      { label: "Student Handbook", href: "/admissions/student-handbook" },
    ],
    "INTERNATIONAL STUDENTS": [
       { label: "Complete Guide & Check List", href: "/international/guide" },
       { label: "Financial Information", href: "/international/financial-info" },
       { label: "Apply for Undergraduate & Masters", href: "/international/apply-undergrad-masters" },
       { label: "Apply for Doctoral Programs", href: "/international/apply-doctoral" },
-      { img: "/api/placeholder/300/200", alt: "International Students" },
+      { img: "/admission/ad-nine.jpg", alt: "International Students" },
    ],
    "FINANCIAL INFO": [
-      { label: "Tuition & Fees", href: "/financial/tuition" },
+      { label: "Tuition & Fees", href: "/admissions/tuition-fees" },
       { label: "Financial Aid", href: "/financial/aid" },
       { label: "Add/Drop Dates & Refund", href: "/financial/dates-refund" },
-      { img: "/api/placeholder/300/200", alt: "Financial Information" },
+      { img: "/admission/ad-ten.jpg", alt: "Financial Information" },
    ],
 };
 
