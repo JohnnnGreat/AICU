@@ -2,7 +2,7 @@ import ApplicationForm from "./components/ApplicationForm";
 
 const DegreePrograms = () => {
    return (
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-[1100px] mx-auto px-4 sm:px-6 lg:px-8 py-12 my-[3rem]">
          <div className="flex flex-col md:flex-row items-center gap-12">
             {/* Left side - Graduate Image */}
             <div className="flex-1">
@@ -13,28 +13,9 @@ const DegreePrograms = () => {
                            {/* Placeholder for actual image */}
                            <div className="text-center p-4">
                               <img
-                                 src="/admissions/ad-19.jpg"
+                                 src="/admission/ad-19.jpg"
                                  alt=""
                               />
-                              <svg
-                                 className="w-20 h-20 mx-auto text-gray-400"
-                                 fill="none"
-                                 stroke="currentColor"
-                                 viewBox="0 0 24 24"
-                              >
-                                 <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M12 14l9-5-9-5-9 5 9 5z"
-                                 />
-                                 <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0L3 9m9 5v7m9-12v7"
-                                 />
-                              </svg>
                            </div>
                         </div>
                      </div>
