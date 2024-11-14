@@ -1,0 +1,51 @@
+export const boardMembers = [
+   {
+      name: "Dr. Emmanuel Akala",
+      position: "Board Chairman",
+      title: "Professor of Pharmaceutics",
+      organization: "Howard University, Washington DC",
+      image: "/about/bo1.jpg",
+   },
+   {
+      name: "Pastor Daniel Ajayi-Adeniran",
+      position: "Member",
+      title: "Regional Pastor",
+      organization: "RCCG, The Americas 1 Region 6, Chapel of Restoration, New York NY",
+      image: "/about/bo2.jpg",
+   },
+   {
+      name: "Dr. Shola Awobajo",
+      position: "President",
+      title: "",
+      organization: "",
+      image: "/about/bo3.jpg",
+   },
+   {
+      name: "Dr. Michael Oladejo",
+      position: "Member",
+      title: "Chief Executive Officer",
+      organization: "",
+      image: "/about/bo4.jpg",
+   },
+   {
+      name: "Dr. Modupe Akinola",
+      position: "Member",
+      title: "M.D. Associate Professor, Pediatrics",
+      organization: "Wake Forest Baptist Medical Center, Winston-Salem, NC",
+      image: "/about/bo5.jpg",
+   },
+   {
+      name: "Dr. Akinsanya Adubi",
+      position: "Member",
+      title: "Senior Pastor",
+      organization: "The Redeemed Christian Church of God, Jesus Palace, Maryland USA",
+      image: "/about/bo6.jpg",
+   },
+   {
+      name: "Pastor Adeyinka Somotun",
+      position: "Member",
+      title: "Sr. Director, Global Procurement",
+      organization: "Oracle Corporation, Rocklin, CA",
+      image: "/about/bo7.jpg",
+   },
+];
