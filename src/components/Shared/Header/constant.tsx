@@ -30,14 +30,14 @@ export const admissionsContent = {
    "INTERNATIONAL STUDENTS": [
       { label: "Complete Guide & Check List", href: "/international/guide" },
       { label: "Financial Information", href: "/international/financial-info" },
-      { label: "Apply for Undergraduate & Masters", href: "/international/apply-undergrad-masters" },
-      { label: "Apply for Doctoral Programs", href: "/international/apply-doctoral" },
+      { label: "Apply for Undergraduate & Masters", href: "/admissions/apply-for-undergraduate-and-masters" },
+      { label: "Apply for Doctoral Programs", href: "/admissions/apply-doctoral" },
       { img: "/admission/ad-nine.jpg", alt: "International Students" },
    ],
    "FINANCIAL INFO": [
       { label: "Tuition & Fees", href: "/admissions/tuition-fees" },
       { label: "Financial Aid", href: "/financial/aid" },
-      { label: "Add/Drop Dates & Refund", href: "/financial/dates-refund" },
+      { label: "Add/Drop Dates & Refund", href: "/admissions/add-drop-date-refunds" },
       { img: "/admission/ad-ten.jpg", alt: "Financial Information" },
    ],
 };

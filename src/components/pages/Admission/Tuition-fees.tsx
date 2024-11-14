@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { programsData } from "./constants";
 import TabNavigation from "./components/TabNavigation";
 import PricingCard from "./components/PricingCard";
+import HeaderPage from "@/components/Shared/HeaderPage";
+import Link from "next/link";
 
 interface PricingData {
    program: string;
@@ -27,20 +29,37 @@ const Tuition: React.FC = () => {
    const displayedData = activeTab === "year1" ? programsData.year1Costs : programsData.fullProgramCosts;
 
    return (
-      <div className="min-h-screen p-8">
-         <TabNavigation
-            activeTab={activeTab}
-            setActiveTab={setActiveTab}
-         />
-         <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 mt-8">
-            {displayedData.map((item, index) => (
-               <PricingCard
-                  key={index}
-                  data={item}
-               />
-            ))}
+      <>
+         <HeaderPage
+            text="Tuition & Fees"
+            image="/admission/ad-16.jpg"
+         />{" "}
+         <div className="min-h-screen max-w-[1200px] mx-auto py-[4rem] px-[1rem]">
+            <div className="my-[2rem] text-center">
+               <p className="font-bold text-[20px]">
+                  Questions about tuition, financial aid and funding your education?
+               </p>
+               <Link
+                  className="underline uppercase"
+                  href="/"
+               >
+                  ASK ABOUT FINANCIAL AID
+               </Link>
+            </div>
+            <TabNavigation
+               activeTab={activeTab}
+               setActiveTab={setActiveTab}
+            />
+            <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-4 mt-8">
+               {displayedData.map((item, index) => (
+                  <PricingCard
+                     key={index}
+                     data={item}
+                  />
+               ))}
+            </div>
          </div>
-      </div>
+      </>
    );
 };
 

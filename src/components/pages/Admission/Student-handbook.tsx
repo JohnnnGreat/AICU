@@ -5,7 +5,7 @@ const StudentHandbook: React.FC = () => {
    return (
       <>
          <HeaderPage
-            text="cademic Calendar"
+            text="Academic Calendar"
             image="/admission/ad-14.jpg"
          />{" "}
          <div className="flex items-center py-[3rem] px-[1rem] max-w-[1100px] mx-auto">
