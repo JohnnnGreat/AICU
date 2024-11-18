@@ -63,8 +63,14 @@ export const academicPrograms = {
          label: "Graduate Certificate in Ministry",
          href: "/2024/02/14/graduate-certificate-in-ministry/",
       },
-      { label: "Graduate Certificate in Counseling", href: "#" },
-      { label: "Graduate Certificate in Missions and Intercultural Studies", href: "#" },
+      {
+         label: "Graduate Certificate in Counseling",
+         href: "/2024/02/15/graduate-certificate-in-counseling/",
+      },
+      {
+         label: "Graduate Certificate in Missions and Intercultural Studies",
+         href: "/2024/06/13/graduate-certificate-in-missions-and-intercultural-studies-2/",
+      },
       { img: "/programs/pro-6.jpg", alt: "Financial Information" },
    ],
    "MASTER'S DEGREES": [

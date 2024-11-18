@@ -74,36 +74,33 @@ export const programs_main = {
       redirect: "/academics/graduate-programs",
       linkText: "BACK TO GRADUATE PROGRAMS",
    },
-   "graduate-certificate-in-ministry": {
-      headerText: "Graduate Certificate In Ministry",
+   "graduate-certificate-in-counseling": {
+      headerText: "Graduate Certificate in Counseling",
       headerImage: "/programs/pro-9.jpg",
       pageNotes: [
-         "The Graduate Certificate in Ministry program is tailored for individuals who have already earned a bachelor’s degree and aspire to enrich their comprehension of theology and ministry practices. It also accommodates individuals aiming to transition into vocational ministry roles, providing them with a specialized curriculum that delves into advanced theological concepts and practical ministry skills.",
+         "A post-graduate diploma course in counseling at RUNA serves several purposes, catering to individuals interested in professional development within the counseling field.",
 
-         "Comprising an array of advanced courses in theology, biblical studies, church leadership, and practical ministry applications, this program offers an immersive learning experience. Topics covered often include in-depth explorations of biblical interpretation, theology, Christian ethics, pastoral counseling, church administration, and missiology. The curriculum is thoughtfully structured to furnish students with both theoretical insights and hands-on skills pertinent to contemporary ministry contexts.",
+         "Some key purposes include:",
 
-         "Furthermore, students may have the opportunity to participate in fieldwork, internships, or supervised ministry experiences, enabling them to apply their newfound knowledge and skills in real-world ministry settings. Upon successfully completing the program, graduates emerge equipped with a profound understanding of theological principles and practical ministry competencies, positioning them for roles such as associate pastor, church leader, ministry director, or other leadership positions within Christian ministry organizations. Additionally, the certificate may serve as a stepping stone for those considering further graduate study in ministry or related fields.",
+         "(i) Skill Enhancement: It aims to enhance the practical counseling skills of individuals who already possess a foundational understanding of counseling principles. The program will enhance one’s skills by refining techniques in assessment, intervention, and therapeutic approaches.",
 
-         "The Graduate Certificate in Counseling program at RUNA serves multiple purposes, providing a platform for individuals seeking professional growth within the counseling field. Among its key objectives are skill enhancement, specialization, continuing education, career advancement, clinical practice development, research, and critical thinking. Upon successful completion of the program, students will be equipped to:",
+         "(ii) Specialization: It may offer opportunities for specialization in specific areas of counseling, such as marriage and family therapy, school counseling, mental health counseling, or substance abuse counseling, allowing professionals to deepen their expertise in a particular field.",
 
-         "1. Demonstrate comprehensive awareness, knowledge, and skills necessary for delivering counseling services that uphold the value of human dignity and the worth of all clients, irrespective of their differences.",
-
-         "2. Foster collaborative relationships with community stakeholders to facilitate effective counseling interventions.",
-
-         "3. Adhere to ethical and legal standards in counseling settings, ensuring the protection and well-being of clients.",
-
-         "4. Exhibit cultural sensitivity and responsiveness towards community members, recognizing and respecting diverse cultural backgrounds.",
-
-         "5. Engage with the total systems surrounding individuals being served, understanding and addressing the broader societal and environmental factors impacting clients.",
-
-         "6. Assume counseling roles aimed at providing mental health care for underserved individuals and groups, particularly in urban settings.",
-
-         "7. Integrate self-awareness, counseling roles, and reflective practices into the development of a professional counseling identity, fostering personal growth and professional efficacy.",
-
-         "The Graduate Certificate in Ministry for Emerging Leaders program is meticulously crafted to offer targeted training and skill development for young ministers stepping into leadership roles within Christian ministry. Specifically tailored to address the unique needs and hurdles encountered by young ministers, this program aims to furnish students with the essential knowledge, resources, and support indispensable for effective ministry leadership in modern settings. Participants will undergo specialized training in youth ministry, delving into topics such as adolescent development, youth culture, discipleship, and evangelism strategies customized for young audiences. Furthermore, the program will empower students to navigate cultural trends, grapple with social issues, and employ contextual ministry approaches to authentically engage with diverse communities and tackle contemporary challenges head-on.",
+         "(iii) Professional Credentialing: For individuals without a counseling background, it provides a pathway to the counseling profession by offering the necessary training and education to meet licensure or certification requirements.",
       ],
 
-      pageImage: "/programs/pro-10.jpg",
+      pageImage: "/programs/pro-11.jpg",
+      redirect: "/academics/graduate-programs",
+      linkText: "BACK TO GRADUATE PROGRAMS",
+   },
+   "graduate-certificate-in-missions-and-intercultural-studies-2": {
+      headerText: "Graduate Certificate in Missions and Intercultural Studies",
+      headerImage: "/programs/pro-9.jpg",
+      pageNotes: [
+         "The program aims to provide a comprehensive understanding of diverse cultural contexts and global issues, enabling sensitive and effective engagement across cultures. It trains students to use technology for outreach and communication, fostering connections across geographical and cultural boundaries. Considering unique cultural challenges and opportunities, students will develop strategic thinking and planning skills for mission initiatives. RUNA promotes the responsible use of technology in missions with a specific focus on ethics. The program encourages innovation and adaptation, fostering solutions for cross-cultural mission challenges. It cultivates research skills for critically analyzing technology’s impact on missions and promotes collaboration and networking among students and practitioners.",
+      ],
+
+      pageImage: "/programs/pro-12.jpg",
       redirect: "/academics/graduate-programs",
       linkText: "BACK TO GRADUATE PROGRAMS",
    },
