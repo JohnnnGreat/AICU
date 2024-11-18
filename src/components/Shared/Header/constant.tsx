@@ -30,7 +30,10 @@ export const admissionsContent = {
    "INTERNATIONAL STUDENTS": [
       { label: "Complete Guide & Check List", href: "/international/guide" },
       { label: "Financial Information", href: "/international/financial-info" },
-      { label: "Apply for Undergraduate & Masters", href: "/admissions/apply-for-undergraduate-and-masters" },
+      {
+         label: "Apply for Undergraduate & Masters",
+         href: "/admissions/apply-for-undergraduate-and-masters",
+      },
       { label: "Apply for Doctoral Programs", href: "/admissions/apply-for-doctoral-programs" },
       { img: "/admission/ad-nine.jpg", alt: "International Students" },
    ],
@@ -40,6 +43,46 @@ export const admissionsContent = {
       { label: "Add/Drop Dates & Refund", href: "/admissions/add-drop-date-refunds" },
       { img: "/admission/ad-ten.jpg", alt: "Financial Information" },
    ],
+};
+export const academicPrograms = {
+   "UNDERGRADUATE PROGRAMS": [
+      { label: "Diploma in Ministry", href: "/2024/02/14/diploma-in-ministry" },
+      { label: "Associates in Ministry", href: "/2024/02/14/associate-of-arts-in-ministry/" },
+      {
+         label: "Bachelors of Arts in Ministry Degree (A.A.Min.)",
+         href: "/2024/02/14/bachelor-of-arts-in-ministry/",
+      },
+      { img: "/programs/pro-6.jpg", alt: "Financial Information" },
+   ],
+   "GRADUATE PROGRAMS": [
+      {
+         label: "Graduate Certificate in Ministry for Young Ministers",
+         href: "/2024/02/14/graduate-certificate-in-ministry-for-young-ministers/",
+      },
+      {
+         label: "Graduate Certificate in Ministry",
+         href: "/2024/02/14/graduate-certificate-in-ministry/",
+      },
+      { label: "Graduate Certificate in Counseling", href: "#" },
+      { label: "Graduate Certificate in Missions and Intercultural Studies", href: "#" },
+      { img: "/programs/pro-6.jpg", alt: "Financial Information" },
+   ],
+   "MASTER'S DEGREES": [
+      { label: "Masters Degree in Ministry", href: "#" },
+      { label: "Masters Degree in Arts - Missions and Intercultural Studies (M.A.)", href: "#" },
+      { label: "Masters Degree in Counseling", href: "#" },
+      { label: "Masters Degree in Ministry with Pastoral Counseling (M.A.)", href: "#" },
+      { label: "Masters Degree in Ministry - Family Counseling (M.A.)", href: "#" },
+      { label: "Master of Divinity (M.Div)", href: "#" },
+      { img: "/programs/pro-6.jpg", alt: "Financial Information" },
+   ],
+   "DOCTORAL PROGRAMS": [
+      { label: "Doctor of Ministry Program", href: "#" },
+      { label: "Doctor of Transformational Leadership (DTL)", href: "#" },
+      { img: "/admission/ad-eleven.jpg", alt: "Doctoral Programs" },
+   ],
+   // "TRANSCRIPT REQUEST": { label: "Transcript Request", href: "#" },
+   // "TRANSFER CREDIT": { label: "Transfer Credit", href: "#" },
 };
 
 export const otherNavItems = [

@@ -1,9 +1,18 @@
 import React from "react";
 
-import { DropdownMenu, DropdownMenuContent, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import {
+   DropdownMenu,
+   DropdownMenuContent,
+   DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { ChevronDown, Plus } from "lucide-react";
 import Link from "next/link";
-import { aboutDropdownContent, admissionsContent, otherNavItems } from "./constant";
+import {
+   aboutDropdownContent,
+   academicPrograms,
+   admissionsContent,
+   otherNavItems,
+} from "./constant";
 import Navbar from "./Top";
 
 const Header = () => {
@@ -40,7 +49,9 @@ const Header = () => {
                                     key={section}
                                     className="space-y-3"
                                  >
-                                    <h3 className="font-semibold text-blue-900 text-sm">{section}</h3>
+                                    <h3 className="font-semibold text-blue-900 text-sm">
+                                       {section}
+                                    </h3>
                                     <div className="flex flex-col space-y-2">
                                        {items.map((item) =>
                                           item.isButton ? (
@@ -118,9 +129,60 @@ const Header = () => {
                            </div>
                         </DropdownMenuContent>
                      </DropdownMenu>
+                     <DropdownMenu>
+                        <DropdownMenuTrigger className="flex items-center text-[15px] text-[#003399] hover:text-blue-700">
+                           ACADEMIC PROGRAMS <Plus className="h-2 w-2 ml-1" />
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent className="w-[1000px] p-6">
+                           <div className="grid grid-cols-3 gap-8">
+                              {Object.entries(academicPrograms).map(([section, items]) => (
+                                 <div
+                                    key={section}
+                                    className="space-y-4"
+                                 >
+                                    <h3 className="font-semibold text-blue-900 text-sm border-b border-blue-900 pb-2">
+                                       {section}
+                                    </h3>
+                                    <div className="flex flex-col space-y-3">
+                                       {items.map((item, index) =>
+                                          item.img ? (
+                                             <div
+                                                key={`img-${index}`}
+                                                className="mt-4"
+                                             >
+                                                <img
+                                                   src={item.img}
+                                                   alt={item.alt}
+                                                   className="rounded-lg w-full h-auto object-cover"
+                                                />
+                                             </div>
+                                          ) : (
+                                             <Link
+                                                key={item.label}
+                                                href={item.href}
+                                                className="text-gray-700 hover:text-blue-700 text-sm transition-colors"
+                                             >
+                                                {item.label}
+                                             </Link>
+                                          ),
+                                       )}
+                                    </div>
+                                 </div>
+                              ))}
+                           </div>
+                           <div className="mt-6">
+                              <Link
+                                 href="/apply-now"
+                                 className="block w-full bg-blue-700 text-white text-center py-3 rounded hover:bg-blue-800 transition-colors"
+                              >
+                                 Apply Now
+                              </Link>
+                           </div>
+                        </DropdownMenuContent>
+                     </DropdownMenu>
 
                      {/* Other Navigation Items */}
-                     {otherNavItems.map((item) => (
+                     {/* {otherNavItems.map((item) => (
                         <DropdownMenu key={item.label}>
                            <DropdownMenuTrigger className="flex items-center text-sm text-blue-900 hover:text-blue-700">
                               {item.label} <Plus className="h-2 w-2 ml-1" />
@@ -139,7 +201,7 @@ const Header = () => {
                               </div>
                            </DropdownMenuContent>
                         </DropdownMenu>
-                     ))}
+                     ))} */}
 
                      <Link
                         target="_blank"

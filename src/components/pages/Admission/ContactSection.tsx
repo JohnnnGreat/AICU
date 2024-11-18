@@ -26,8 +26,8 @@ const ContactSection: React.FC = () => {
       <>
          <HeaderPage
             text="Our Admissions Team"
-            image="/admission/ad-eight.jpg"
-         />
+           image="/admission/ad-eight.jpg"
+         /> 
          <div className="max-w-6xl mx-auto px-4 py-12 md:px-6 lg:px-8">
             {/* Staff Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 max-w-3xl mx-auto">

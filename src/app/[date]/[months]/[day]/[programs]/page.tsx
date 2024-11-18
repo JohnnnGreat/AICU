@@ -1,6 +1,7 @@
 "use client";
 
 import { programs_main } from "@/components/Pages/Admission/Programs/constants";
+import ProgramsPage from "@/components/Pages/Admission/Programs/ProgramsPage";
 import { usePathname } from "next/navigation";
 import React from "react";
 
@@ -21,13 +22,13 @@ function isValidDate(dateString: string) {
    return date.getFullYear() === year && date.getMonth() === month - 1 && date.getDate() === day;
 }
 
-const ProgramsPage = () => {
+const ProgramsPageMain = () => {
    const params = usePathname().split("/")[4];
 
    console.log(programs_main);
    const filterResearch = programs_main[params];
 
-   return <ProgramsMain data={filterResearch} />;
+   return <ProgramsPage data={filterResearch} />;
 };
 
-export default ProgramsPage;
+export default ProgramsPageMain;
