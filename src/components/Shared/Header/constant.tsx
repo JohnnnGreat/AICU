@@ -31,7 +31,7 @@ export const admissionsContent = {
       { label: "Complete Guide & Check List", href: "/international/guide" },
       { label: "Financial Information", href: "/international/financial-info" },
       { label: "Apply for Undergraduate & Masters", href: "/admissions/apply-for-undergraduate-and-masters" },
-      { label: "Apply for Doctoral Programs", href: "/admissions/apply-doctoral" },
+      { label: "Apply for Doctoral Programs", href: "/admissions/apply-for-doctoral-programs" },
       { img: "/admission/ad-nine.jpg", alt: "International Students" },
    ],
    "FINANCIAL INFO": [

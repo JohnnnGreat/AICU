@@ -63,7 +63,7 @@ const ApplicationForm = () => {
    };
 
    return (
-      <div className="max-w-[1100px] mx-auto p-6">
+      <div className="max-w-[1100px] mx-auto p-6 mt-[4rem]">
          <h2 className="text-3xl font-bold text-gray-800 mb-8">Program Application</h2>
 
          <form
