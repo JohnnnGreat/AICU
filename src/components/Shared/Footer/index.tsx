@@ -4,21 +4,21 @@ import React from "react";
 // Footer data
 const footerData = {
    about: [
-      { title: "Our Mission", link: "#" },
-      { title: "Our History", link: "#" },
-      { title: "AICU at a Glance", link: "#" },
-      { title: "Board of Trustees", link: "#" },
-      { title: "Accreditation", link: "#" },
+      { title: "Our Mission", link: "/about/mission" },
+      { title: "Our History", link: "/about/history" },
+      { title: "AICU at a Glance", link: "/about/at-a-glance" },
+      { title: "Board of Trustees", link: "/about/board-of-trustees" },
+      { title: "Accreditation", link: "/about/accreditation" },
    ],
    admissions: [
-      { title: "Requirements for Admission", link: "#" },
-      { title: "How To Apply", link: "#" },
+      { title: "Requirements for Admission", link: "/admissions/how-to-apply" },
+      { title: "How To Apply", link: "/admissions/requirements-for-admission" },
       { title: "International Students Guide", link: "#" },
-      { title: "Tuition & Fees", link: "#" },
-      { title: "Financial Aid", link: "#" },
+      { title: "Tuition & Fees", link: "/admissions/tuition-fees" },
+      { title: "Financial Aid", link: "/financial/aid" },
    ],
    academicResources: [
-      { title: "Undergraduate Programs", link: "#" },
+      { title: "Undergraduate Programs", link: "/academics/graduate-programs" },
       { title: "Graduate Programs", link: "#" },
       { title: "Master's Degrees", link: "#" },
       { title: "Doctoral Programs", link: "#" },

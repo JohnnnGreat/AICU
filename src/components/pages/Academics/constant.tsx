@@ -86,15 +86,15 @@ export const programsAc = {
             name: "Graduate Certificate in Ministry for Young Ministers",
             description:
                "The Graduate Certificate in Ministry program is tailored for individuals who have already earned a bachelor's degree and aspire to enrich their comprehension of theology.",
-            redirect: "url_to_course_details_1",
             imageUrl: "/Academics/ad-10.jpg",
+            redirect: "/2024/02/14/graduate-certificate-in-ministry-for-young-ministers/",
             courseDetails: "COURSE DETAILS>",
          },
          {
             name: "Graduate Certificate in Ministry",
             description:
                "The Graduate Certificate in Ministry program is tailored for individuals who have already earned a bachelor's degree and aspire to enrich their comprehension of theology.",
-            redirect: "url_to_course_details_2",
+            redirect: "/2024/02/14/graduate-certificate-in-ministry/",
             imageUrl: "/Academics/ad-11.jpg",
             courseDetails: "COURSE DETAILS>",
          },
@@ -102,7 +102,7 @@ export const programsAc = {
             name: "Graduate Certificate in Counseling",
             description:
                "A post-graduate diploma course in counseling at RUNA serves several purposes, catering to individuals interested in professional development within the counseling field.",
-            redirect: "url_to_course_details_3",
+            redirect: "/2024/02/15/graduate-certificate-in-counseling/",
             imageUrl: "/Academics/ad-12.jpg",
             courseDetails: "COURSE DETAILS>",
          },
@@ -110,7 +110,7 @@ export const programsAc = {
             name: "Graduate Certificate in Missions and Intercultural Studies",
             description:
                "The program aims to provide a comprehensive understanding of diverse cultural contexts and global issues, enabling sensitive and effective engagement across cultures.",
-            redirect: "url_to_course_details_4",
+            redirect: "/2024/06/13/graduate-certificate-in-missions-and-intercultural-studies-2/",
             imageUrl: "/Academics/ad-13.jpg",
             courseDetails: "COURSE DETAILS>",
          },
