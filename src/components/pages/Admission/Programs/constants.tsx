@@ -217,7 +217,7 @@ export const programs_main = {
 
       pageImage: "/programs/pro-18.jpg",
       redirect: "/academics/masters-degrees",
-      linkText: "BACK TO MASTER DEGREES",
+      linkText: "BACK TO DOCTORAL DEGREES",
    },
    "doctor-of-ministry": {
       headerText: "Doctor of Ministry (D.Min.)",
@@ -233,7 +233,7 @@ export const programs_main = {
       ],
 
       pageImage: "/programs/pro-20.jpg",
-      redirect: "/academics/graduate-programs",
-      linkText: "BACK TO MASTER DEGREES",
+      redirect: "/academics/doctoral-programs",
+      linkText: "BACK TO DOCTORAL DEGREES",
    },
 };
