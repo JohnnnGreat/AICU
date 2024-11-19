@@ -146,7 +146,7 @@ export const programs_main = {
       ],
 
       pageImage: "/programs/pro-13.jpg",
-      redirect: "/academics/graduate-programs",
+      redirect: "/academics/masters-degrees",
       linkText: "BACK TO MASTER DEGREES",
    },
    "master-of-divinity": {
@@ -168,7 +168,7 @@ export const programs_main = {
       ],
 
       pageImage: "/programs/pro-16.jpg",
-      redirect: "/academics/graduate-programs",
+      redirect: "/academics/masters-degrees",
       linkText: "BACK TO MASTER DEGREES",
    },
    "master-of-arts-in-ministry-pastoral-counseling": {
@@ -179,7 +179,7 @@ export const programs_main = {
       ],
 
       pageImage: "/programs/pro-16.jpg",
-      redirect: "/academics/graduate-programs",
+      redirect: "/academics/masters-degrees",
       linkText: "BACK TO MASTER DEGREES",
    },
    "missions-and-intercultural-studies": {
@@ -199,11 +199,11 @@ export const programs_main = {
       ],
 
       pageImage: "/programs/pro-14.jpg",
-      redirect: "/academics/graduate-programs",
+      redirect: "/academics/masters-degrees",
       linkText: "BACK TO MASTER DEGREES",
    },
    "doctor-of-transformational-leadership": {
-      headerText: "Masters Degree in Arts – Missions and Intercultural Studies (M.A.)",
+      headerText: "Doctor Of Transformational Leadership (D.T.L.)",
       headerImage: "/programs/pro-19.jpg",
       pageNotes: [
          "The goal of our Doctor of Transformational Leadership (DTL) program is to prepare experienced and visionary leaders to be catalysts for positive change in various organizational and community settings.",
@@ -216,7 +216,7 @@ export const programs_main = {
       ],
 
       pageImage: "/programs/pro-18.jpg",
-      redirect: "/academics/graduate-programs",
+      redirect: "/academics/masters-degrees",
       linkText: "BACK TO MASTER DEGREES",
    },
    "doctor-of-ministry": {
