@@ -1,11 +1,12 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 
 import {
    DropdownMenu,
    DropdownMenuContent,
    DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { ChevronDown, Plus } from "lucide-react";
+import { ChevronDown, Plus, Menu, X } from "lucide-react";
 import Link from "next/link";
 import {
    aboutDropdownContent,
@@ -17,11 +18,30 @@ import {
 import Navbar from "./Top";
 
 const Header = () => {
+   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+   const [openDropdown, setOpenDropdown] = useState(null);
+
+   const toggleMobileMenu = () => {
+      setIsMobileMenuOpen(!isMobileMenuOpen);
+      setOpenDropdown(null);
+   };
+
+   const toggleDropdown = (dropdown) => {
+      setOpenDropdown(openDropdown === dropdown ? null : dropdown);
+   };
+
+   const [isMounted, setIsMounted] = useState(false);
+
+   useEffect(() => {
+      setIsMounted(true);
+   }, []);
+
+   if (!isMounted) return null;
    return (
       <>
          <Navbar />
          <header className="w-full bg-white shadow-sm h-[120px]">
-            <div className="max-w-[1100px] mx-auto px-4 h-full">
+            <div className="max-w-[1100px] mx-auto px-4 h-[120px] hidden md:block">
                <div className="flex items-center justify-between h-full">
                   <Link
                      href="/"
@@ -255,8 +275,121 @@ const Header = () => {
                   </Link>
                </div>
             </div>
+            <div className="md:hidden">
+               <div className="flex items-center justify-between p-4">
+                  <Link
+                     href="/"
+                     className="flex items-center"
+                  >
+                     <img
+                        src="/logo.png"
+                        alt="Redeemers University Logo"
+                        className="h-[50px] w-auto"
+                     />
+                  </Link>
+                  <button
+                     onClick={toggleMobileMenu}
+                     className="text-blue-900"
+                  >
+                     {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+                  </button>
+               </div>
+               {isMobileMenuOpen && (
+                  <div className="absolute z-50 w-full bg-white shadow-lg">
+                     <nav className="flex flex-col">
+                        {/* Mobile Dropdown Sections */}
+                        <MobileDropdown
+                           title="ABOUT AICU"
+                           content={aboutDropdownContent}
+                           isOpen={openDropdown === "about"}
+                           onToggle={() => toggleDropdown("about")}
+                        />
+                        <MobileDropdown
+                           title="ADMISSIONS"
+                           content={admissionsContent}
+                           isOpen={openDropdown === "admissions"}
+                           onToggle={() => toggleDropdown("admissions")}
+                        />
+                        <MobileDropdown
+                           title="ACADEMIC PROGRAMS"
+                           content={academicPrograms}
+                           isOpen={openDropdown === "programs"}
+                           onToggle={() => toggleDropdown("programs")}
+                        />
+                        <MobileDropdown
+                           title="FACULTY"
+                           content={facultyOptions}
+                           isOpen={openDropdown === "faculty"}
+                           onToggle={() => toggleDropdown("faculty")}
+                        />
+
+                        {/* Direct Links */}
+                        <Link
+                           href="https://rccgnaseminary.populiweb.com/router/library/links/index"
+                           target="_blank"
+                           className="px-4 py-3 text-blue-900 hover:bg-blue-50 border-t"
+                        >
+                           Library
+                        </Link>
+                        <Link
+                           href="/library"
+                           className="px-4 py-3 text-blue-900 hover:bg-blue-50 border-t"
+                        >
+                           ALUMNI
+                        </Link>
+
+                        {/* Apply Button */}
+                        <Link
+                           href="/apply"
+                           className="px-4 py-3 bg-[#F7C750] text-blue-900 text-center font-bold border-t"
+                        >
+                           Apply Online →
+                        </Link>
+                     </nav>
+                  </div>
+               )}
+            </div>
          </header>
       </>
+   );
+};
+
+const MobileDropdown = ({ title, content, isOpen, onToggle }) => {
+   return (
+      <div className="border-t">
+         <button
+            onClick={onToggle}
+            className="w-full flex justify-between items-center px-4 py-3 text-blue-900 hover:bg-blue-50"
+         >
+            {title}
+            <Plus
+               className={`h-4 w-4 transform transition-transform ${isOpen ? "rotate-45" : ""}`}
+            />
+         </button>
+         {isOpen && (
+            <div className="bg-blue-50 p-4">
+               {Object.entries(content).map(([section, items]) => (
+                  <div
+                     key={section}
+                     className="mb-4"
+                  >
+                     <h3 className="font-semibold text-blue-900 text-sm mb-2">{section}</h3>
+                     <div className="flex flex-col space-y-2">
+                        {items.map((item) => (
+                           <Link
+                              key={item.label}
+                              href={item.href}
+                              className="text-gray-700 hover:text-blue-700 text-sm"
+                           >
+                              {item.label}
+                           </Link>
+                        ))}
+                     </div>
+                  </div>
+               ))}
+            </div>
+         )}
+      </div>
    );
 };
 

@@ -10,7 +10,7 @@ const ProgramsPage = ({ data }) => {
             image={data?.headerImage ?? "/admission/ad-eight.jpg"}
          />
 
-         <div className="grid grid-cols-2 max-w-[1200px] mx-auto py-[4rem] gap-[2rem]">
+         <div className="grid grid-cols-1 md:grid-cols-2 max-w-[1200px] mx-auto py-[4rem] gap-[2rem] px-[1rem]">
             <img
                src={data?.pageImage}
                alt=""
