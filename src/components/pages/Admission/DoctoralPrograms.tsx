@@ -11,7 +11,7 @@ const DoctoralPrograms = () => {
          />
          <Programs
             image="/admission/ad-21.jpg"
-            desc="By applying to the Doctoral Degree in Ministry or Transformational Leadership programs at RUNA, you have made a bold decision to invest in your academic and spiritual growth. You are joining an institution dedicated to advancing your future and supporting your journey in service to God."
+            desc="By applying to the Doctoral Degree in Ministry or Transformational Leadership programs at AICU, you have made a bold decision to invest in your academic and spiritual growth. You are joining an institution dedicated to advancing your future and supporting your journey in service to God."
             title="Doctoral Degrees"
          />
       </>

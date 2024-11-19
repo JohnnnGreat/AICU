@@ -1,9 +1,9 @@
 export const aboutDropdownContent = {
    "WHO WE ARE": [
       { label: "Welcome", href: "/about/welcome" },
-      { label: "RUNA at a Glance", href: "/about/at-a-glance" },
-      { label: "RUNA's Mission", href: "/about/mission" },
-      { label: "RUNA's History", href: "/about/history" },
+      { label: "AICU at a Glance", href: "/about/at-a-glance" },
+      { label: "AICU's Mission", href: "/about/mission" },
+      { label: "AICU's History", href: "/about/history" },
       { label: "Students Achievement Rate", href: "/about/student-achievement-rate" },
       { label: "Accreditation", href: "/about/accreditation", isButton: true },
    ],
@@ -20,7 +20,7 @@ export const aboutDropdownContent = {
 };
 
 export const admissionsContent = {
-   "APPLYING TO RUNA": [
+   "APPLYING TO AICU": [
       { label: "How to Apply", href: "/admissions/how-to-apply" },
       { label: "Requirements for Admission", href: "/admissions/requirements-for-admission" },
       { label: "Our Admissions Team", href: "/admissions/our-admissions-team" },
@@ -42,6 +42,13 @@ export const admissionsContent = {
       { label: "Financial Aid", href: "/financial/aid" },
       { label: "Add/Drop Dates & Refund", href: "/admissions/add-drop-date-refunds" },
       { img: "/admission/ad-ten.jpg", alt: "Financial Information" },
+   ],
+};
+export const facultyOptions = {
+   FACULTY: [
+      { label: "Faculty Handbook", href: "/faculty/faculty-handbook" },
+      { label: "Faculty Directory", href: "/faculty/faculty-news" },
+      { label: "Faculty News", href: "/faculty/faculty-directory" },
    ],
 };
 export const academicPrograms = {
@@ -74,17 +81,35 @@ export const academicPrograms = {
       { img: "/programs/pro-6.jpg", alt: "Financial Information" },
    ],
    "MASTER'S DEGREES": [
-      { label: "Masters Degree in Ministry", href: "#" },
-      { label: "Masters Degree in Arts - Missions and Intercultural Studies (M.A.)", href: "#" },
-      { label: "Masters Degree in Counseling", href: "#" },
-      { label: "Masters Degree in Ministry with Pastoral Counseling (M.A.)", href: "#" },
-      { label: "Masters Degree in Ministry - Family Counseling (M.A.)", href: "#" },
-      { label: "Master of Divinity (M.Div)", href: "#" },
+      {
+         label: "Masters Degree in Ministry",
+         href: "/2024/02/16/master-of-arts-in-ministry/",
+      },
+      {
+         label: "Masters Degree in Arts - Missions and Intercultural Studies (M.A.)",
+         href: "/2024/02/16/missions-and-intercultural-studies/",
+      },
+      {
+         label: "Masters Degree in Counseling",
+         href: "/2024/04/19/master-of-arts-in-counseling/ ",
+      },
+      {
+         label: "Masters Degree in Ministry with Pastoral Counseling (M.A.)",
+         href: "/2024/02/15/master-of-arts-in-ministry-pastoral-counseling/",
+      },
+      {
+         label: "Masters Degree in Ministry - Family Counseling (M.A.)",
+         href: "/2024/04/19/master-of-arts-in-ministry-family-counseling/",
+      },
+      { label: "Master of Divinity (M.Div)", href: "/2024/02/15/master-of-divinity/" },
       { img: "/programs/pro-6.jpg", alt: "Financial Information" },
    ],
    "DOCTORAL PROGRAMS": [
-      { label: "Doctor of Ministry Program", href: "#" },
-      { label: "Doctor of Transformational Leadership (DTL)", href: "#" },
+      { label: "Doctor of Ministry Program", href: "/2024/02/15/doctor-of-ministry/" },
+      {
+         label: "Doctor of Transformational Leadership (DTL)",
+         href: "/2024/02/15/doctor-of-transformational-leadership/",
+      },
       { img: "/admission/ad-eleven.jpg", alt: "Doctoral Programs" },
    ],
    // "TRANSCRIPT REQUEST": { label: "Transcript Request", href: "#" },

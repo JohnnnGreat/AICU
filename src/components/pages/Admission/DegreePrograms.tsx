@@ -11,7 +11,7 @@ const DegreePrograms = () => {
          />
          <Programs
             image="/admission/ad-19.jpg"
-            desc="By applying to the undergraduate or graduate Degree program at RUNA you have made the bold decision
+            desc="By applying to the undergraduate or graduate Degree program at AICU you have made the bold decision
                      to dedicate your time to learning both academically and spiritually. You are applying to an
                      institution that is committed to guiding you towards your future and onwards in God's service."
             title="Undergraduate & Graduate Degrees"

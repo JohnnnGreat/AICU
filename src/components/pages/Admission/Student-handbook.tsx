@@ -26,7 +26,7 @@ const StudentHandbook: React.FC = () => {
                >
                   <div className="text-4xl text-blue-600 mr-3">&#10145;</div> {/* Right Arrow Unicode */}
                   <div>
-                     <h2 className="text-xl text-blue-600 font-semibold">RUNA Student Handbook</h2>
+                     <h2 className="text-xl text-blue-600 font-semibold">AICU Student Handbook</h2>
                      <p className="text-gray-600">Click here to Sign in to access the handbook</p>
                   </div>
                </a>

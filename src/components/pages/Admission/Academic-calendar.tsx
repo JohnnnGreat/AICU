@@ -19,12 +19,12 @@ const AcademicCalendarSection: React.FC = () => {
 
                <div className="mt-8 text-gray-700">
                   <p>
-                     RUNA operates on a student-centric calendar (SCP). Each semester consists of 16 weeks of
+                     AICU operates on a student-centric calendar (SCP). Each semester consists of 16 weeks of
                      instruction and exams; classes are scheduled in two eight-week sessions each semester. An
                      individual's SCP is based on his/her initial enrollment date into a degree-seeking program or on
                      the date studies are resumed following readmission to the University. This results in two
                      overlapping calendars referred to as "cycles." The two overlapping calendar cycles designate months
-                     corresponding to RUNA's summer, fall, and spring semesters.
+                     corresponding to AICU's summer, fall, and spring semesters.
                   </p>
                   <Link
                      href="/"

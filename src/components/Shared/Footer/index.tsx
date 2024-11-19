@@ -6,7 +6,7 @@ const footerData = {
    about: [
       { title: "Our Mission", link: "#" },
       { title: "Our History", link: "#" },
-      { title: "RUNA at a Glance", link: "#" },
+      { title: "AICU at a Glance", link: "#" },
       { title: "Board of Trustees", link: "#" },
       { title: "Accreditation", link: "#" },
    ],
@@ -33,7 +33,7 @@ const footerData = {
    contact: {
       address: "4320 Highway 380 Business, Greenville TX 75401",
       phone: "+1 (214) 500-4893",
-      email: "info@runa.us",
+      email: "info@AICU.us",
       hours: "Monday - Friday 9AM - 5PM",
    },
    socialLinks: [
@@ -63,7 +63,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left mb-8">
                {/* About Section */}
                <div>
-                  <h3 className="text-yellow-500 font-semibold mb-4">About Runa</h3>
+                  <h3 className="text-yellow-500 font-semibold mb-4">About AICU</h3>
                   <ul>
                      {footerData.about.map((item, index) => (
                         <li key={index}>
@@ -170,7 +170,7 @@ const Footer = () => {
                />
 
                <p className="text-sm text-gray-400 mb-4">
-                  © 2024 RUNA. All Rights Reserved | Web Design & Hosting by MSPSStream
+                  © 2024 AICU. All Rights Reserved | Web Design & Hosting by MSPSStream
                </p>
 
                {/* Social Media Links */}

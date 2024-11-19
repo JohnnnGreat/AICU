@@ -11,6 +11,7 @@ import {
    aboutDropdownContent,
    academicPrograms,
    admissionsContent,
+   facultyOptions,
    otherNavItems,
 } from "./constant";
 import Navbar from "./Top";
@@ -35,10 +36,10 @@ const Header = () => {
 
                   {/* Navigation Section */}
                   <nav className="flex items-center gap-[2rem]">
-                     {/* About RUNA Dropdown */}
+                     {/* About AICU Dropdown */}
                      <DropdownMenu>
                         <DropdownMenuTrigger className="flex items-center text-[15px] text-[#003399] hover:text-blue-700">
-                           <h1 className="leading-none">ABOUT RUNA</h1>{" "}
+                           <h1 className="leading-none">ABOUT AICU</h1>{" "}
                            {/* <ChevronDown className="ml-1 h-4 w-4 leading-none" /> */}
                            <Plus className="h-2 w-2 ml-1" />
                         </DropdownMenuTrigger>
@@ -133,8 +134,8 @@ const Header = () => {
                         <DropdownMenuTrigger className="flex items-center text-[15px] text-[#003399] hover:text-blue-700">
                            ACADEMIC PROGRAMS <Plus className="h-2 w-2 ml-1" />
                         </DropdownMenuTrigger>
-                        <DropdownMenuContent className="w-[1000px] p-6">
-                           <div className="grid grid-cols-3 gap-8">
+                        <DropdownMenuContent className="w-[1000px] p-[2rem]">
+                           <div className="grid grid-cols-4 gap-8">
                               {Object.entries(academicPrograms).map(([section, items]) => (
                                  <div
                                     key={section}
@@ -171,37 +172,64 @@ const Header = () => {
                               ))}
                            </div>
                            <div className="mt-6">
-                              <Link
-                                 href="/apply-now"
-                                 className="block w-full bg-blue-700 text-white text-center py-3 rounded hover:bg-blue-800 transition-colors"
-                              >
-                                 Apply Now
-                              </Link>
+                              <div className="grid grid-cols-2 gap-2">
+                                 <Link
+                                    href="/transcript-request"
+                                    className="block w-full bg-[#60C087] text-white text-center py-3 rounded hover:bg-blue-800 transition-colors"
+                                 >
+                                    Transcript Request
+                                 </Link>
+                                 <Link
+                                    href="/apply-now"
+                                    className="block w-full bg-blue-700 text-white text-center py-3 rounded hover:bg-blue-800 transition-colors"
+                                 >
+                                    Transfer Credit
+                                 </Link>
+                              </div>
                            </div>
                         </DropdownMenuContent>
                      </DropdownMenu>
-
-                     {/* Other Navigation Items */}
-                     {/* {otherNavItems.map((item) => (
-                        <DropdownMenu key={item.label}>
-                           <DropdownMenuTrigger className="flex items-center text-sm text-blue-900 hover:text-blue-700">
-                              {item.label} <Plus className="h-2 w-2 ml-1" />
-                           </DropdownMenuTrigger>
-                           <DropdownMenuContent className="p-[3rem]">
-                              <div className="flex flex-col space-y-1">
-                                 {item.items.map((subItem) => (
-                                    <Link
-                                       key={subItem.label}
-                                       href={subItem.href}
-                                       className="text-gray-700 hover:text-blue-700 text-sm px-2 py-1 transition-colors"
-                                    >
-                                       {subItem.label}
-                                    </Link>
-                                 ))}
-                              </div>
-                           </DropdownMenuContent>
-                        </DropdownMenu>
-                     ))} */}
+                     <DropdownMenu>
+                        <DropdownMenuTrigger className="flex items-center text-[15px] text-[#003399] hover:text-blue-700">
+                           FACULTY <Plus className="h-2 w-2 ml-1" />
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent className="w-[1000px] p-[2rem]">
+                           <div className="">
+                              {Object.entries(facultyOptions).map(([section, items]) => (
+                                 <div
+                                    key={section}
+                                    className="space-y-4  w-full"
+                                 >
+                                    <div className="grid grid-cols-2 gap-[2rem]  items-center">
+                                       <div>
+                                          <img
+                                             src="/faculty/fa-3.jpg"
+                                             alt=""
+                                             className="rounded-[20px]"
+                                          />
+                                       </div>
+                                       <div>
+                                          <h3 className="font-semibold text-blue-900 text-sm border-b border-blue-900 pb-2">
+                                             {section}
+                                          </h3>
+                                          <div className="flex flex-col space-y-3 mt-[1rem]">
+                                             {items.map((item, index) => (
+                                                <Link
+                                                   key={item.label}
+                                                   href={item.href}
+                                                   className="text-gray-700 hover:text-blue-700 text-sm transition-colors"
+                                                >
+                                                   {item.label}
+                                                </Link>
+                                             ))}
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              ))}
+                           </div>
+                        </DropdownMenuContent>
+                     </DropdownMenu>
 
                      <Link
                         target="_blank"
