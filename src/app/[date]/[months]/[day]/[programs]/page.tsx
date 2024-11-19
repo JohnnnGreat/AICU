@@ -1,6 +1,6 @@
 "use client";
 
-import { programs_main } from "@/components/Pages/Admission/Programs/constants";
+import { programs_main } from "../../../../../components/Pages/Admission/Programs/constants";
 import ProgramsPage from "@/components/Pages/Admission/Programs/ProgramsPage";
 import { usePathname } from "next/navigation";
 import React from "react";
