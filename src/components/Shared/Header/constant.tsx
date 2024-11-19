@@ -47,8 +47,8 @@ export const admissionsContent = {
 export const facultyOptions = {
    FACULTY: [
       { label: "Faculty Handbook", href: "/faculty/faculty-handbook" },
-      { label: "Faculty Directory", href: "/faculty/faculty-news" },
-      { label: "Faculty News", href: "/faculty/faculty-directory" },
+      { label: "Faculty Directory", href: "/faculty/faculty-directory" },
+      { label: "Faculty News", href: "/faculty/faculty-news" },
    ],
 };
 export const academicPrograms = {
