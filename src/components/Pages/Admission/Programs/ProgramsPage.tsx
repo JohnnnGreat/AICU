@@ -5,6 +5,7 @@ import React from "react";
 const ProgramsPage = ({ data }) => {
    return (
       <>
+         <title>{data?.headerText}</title>
          <HeaderPage
             text={data?.headerText}
             image={data?.headerImage ?? "/admission/ad-eight.jpg"}

@@ -5,6 +5,7 @@ import HeaderPage from "@/components/Shared/HeaderPage";
 const DoctoralPrograms = () => {
    return (
       <>
+         <title>Apply for Doctoral Programs</title>
          <HeaderPage
             text="Apply for Doctoral Programs"
             image="/admission/ad-20.jpg"

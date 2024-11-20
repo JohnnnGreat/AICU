@@ -29,6 +29,7 @@ const HowToApply = () => {
 
    return (
       <>
+         <title>HOW TO APPLY</title>
          <HeaderPage
             text="HOW TO APPLY"
             image="/admission/ad-one.jpg"
@@ -42,7 +43,9 @@ const HowToApply = () => {
                   <div
                      key={step.id}
                      className={`relative w-full h-[180px] sm:h-[200px] md:h-[220px] lg:h-[250px] transition-all duration-300 rounded-lg flex items-center justify-center ${
-                        hoveredIndex === index ? "bg-[#2A3E9E] text-white" : "bg-[#4691a9] text-white"
+                        hoveredIndex === index
+                           ? "bg-[#2A3E9E] text-white"
+                           : "bg-[#4691a9] text-white"
                      }`}
                      onMouseEnter={() => setHoveredIndex(index)}
                      onMouseLeave={() => setHoveredIndex(null)}
@@ -51,7 +54,9 @@ const HowToApply = () => {
                         {/* Show the button for the currently hovered card */}
                         {hoveredIndex === index ? (
                            <div>
-                              <h1 className="text-base sm:text-lg md:text-xl font-semibold">{step.title}</h1>
+                              <h1 className="text-base sm:text-lg md:text-xl font-semibold">
+                                 {step.title}
+                              </h1>
                               {step.buttonLabel && (
                                  <Link
                                     href={step.href}

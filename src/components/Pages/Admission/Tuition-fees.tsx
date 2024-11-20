@@ -26,10 +26,12 @@ const Tuition: React.FC = () => {
    const [activeTab, setActiveTab] = useState<"year1" | "fullProgram">("year1");
 
    // Determine which data to display based on the active tab
-   const displayedData = activeTab === "year1" ? programsData.year1Costs : programsData.fullProgramCosts;
+   const displayedData =
+      activeTab === "year1" ? programsData.year1Costs : programsData.fullProgramCosts;
 
    return (
       <>
+         <title>Tuition & Fees</title>
          <HeaderPage
             text="Tuition & Fees"
             image="/admission/ad-16.jpg"

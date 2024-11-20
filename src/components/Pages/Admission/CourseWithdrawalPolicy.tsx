@@ -3,6 +3,7 @@ import HeaderPage from "@/components/Shared/HeaderPage";
 const CourseWithdrawalPolicy = () => {
    return (
       <>
+         <title>Add/Drop Date & Refunds</title>
          <HeaderPage
             text="Add/Drop Date & Refunds"
             image="/admission/ad-18.jpg"
@@ -16,31 +17,33 @@ const CourseWithdrawalPolicy = () => {
                   <div className="bg-white p-6 rounded-lg shadow-md">
                      <h3 className="font-semibold text-gray-700 mb-2">Add/Drop Period</h3>
                      <p className="text-gray-600">
-                        During the add/drop period, students can adjust their class schedules without penalty.
+                        During the add/drop period, students can adjust their class schedules
+                        without penalty.
                      </p>
                   </div>
 
                   <div className="bg-white p-6 rounded-lg shadow-md">
                      <h3 className="font-semibold text-gray-700 mb-2">One Week After</h3>
                      <p className="text-gray-600">
-                        Course changes made a week following the add/drop period will result in a 50% charge for the
-                        course and a 50% refund.
+                        Course changes made a week following the add/drop period will result in a
+                        50% charge for the course and a 50% refund.
                      </p>
                   </div>
 
                   <div className="bg-white p-6 rounded-lg shadow-md">
                      <h3 className="font-semibold text-gray-700 mb-2">Two Weeks After</h3>
                      <p className="text-gray-600">
-                        Course changes made two weeks following the add/drop period will result in a 75% charge for the
-                        course and a 25% refund.
+                        Course changes made two weeks following the add/drop period will result in a
+                        75% charge for the course and a 25% refund.
                      </p>
                   </div>
 
                   <div className="bg-white p-6 rounded-lg shadow-md">
                      <h3 className="font-semibold text-gray-700 mb-2">After Two Weeks</h3>
                      <p className="text-gray-600">
-                        Courses dropped more than two weeks following the add/drop period will be considered a
-                        withdrawal of the course. Students will not be refunded when they withdraw from a course.
+                        Courses dropped more than two weeks following the add/drop period will be
+                        considered a withdrawal of the course. Students will not be refunded when
+                        they withdraw from a course.
                      </p>
                   </div>
                </div>

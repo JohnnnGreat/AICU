@@ -2,9 +2,9 @@ import HeaderPage from "@/components/Shared/HeaderPage";
 import React from "react";
 
 const AcademicsComponent = ({ data }) => {
-   
    return (
       <>
+         <title>{data.headerText}</title>
          <HeaderPage
             text={data.headerText}
             image="/about/mission-eleven.jpg"

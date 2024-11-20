@@ -7,6 +7,7 @@ const FacultyComponent = ({ fType, data }: { fType: facultyType }) => {
    if (fType == "faculty-handbook") {
       return (
          <>
+            <title>{data.headerText}</title>
             <HeaderPage
                text={data.headerText}
                image="/about/mission-eleven.jpg"
@@ -37,6 +38,7 @@ const FacultyComponent = ({ fType, data }: { fType: facultyType }) => {
    if (fType == "faculty-directory") {
       return (
          <>
+            <title>{data.headerText}</title>
             <HeaderPage
                text={data.headerText}
                image={data.headerImage}
@@ -65,6 +67,7 @@ const FacultyComponent = ({ fType, data }: { fType: facultyType }) => {
    if (fType == "faculty-news") {
       return (
          <>
+            <title>{data.headerText}</title>
             <HeaderPage
                text={data.headerText}
                image={data.headerImage}

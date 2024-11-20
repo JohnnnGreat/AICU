@@ -5,8 +5,9 @@ import React from "react";
 const AcademicCalendarSection: React.FC = () => {
    return (
       <>
+         <title>Academic Calendar</title>
          <HeaderPage
-            text="cademic Calendar"
+            text="Academic Calendar"
             image="/admission/ad-eleven.jpg"
          />
          <div className="py-12 px-4 md:px-6 lg:px-8 max-w-[1100px] mx-auto">
@@ -19,12 +20,14 @@ const AcademicCalendarSection: React.FC = () => {
 
                <div className="mt-8 text-gray-700">
                   <p>
-                     AICU operates on a student-centric calendar (SCP). Each semester consists of 16 weeks of
-                     instruction and exams; classes are scheduled in two eight-week sessions each semester. An
-                     individual's SCP is based on his/her initial enrollment date into a degree-seeking program or on
-                     the date studies are resumed following readmission to the University. This results in two
-                     overlapping calendars referred to as "cycles." The two overlapping calendar cycles designate months
-                     corresponding to AICU's summer, fall, and spring semesters.
+                     AICU operates on a student-centric calendar (SCP). Each semester consists of 16
+                     weeks of instruction and exams; classes are scheduled in two eight-week
+                     sessions each semester. An individual's SCP is based on his/her initial
+                     enrollment date into a degree-seeking program or on the date studies are
+                     resumed following readmission to the University. This results in two
+                     overlapping calendars referred to as "cycles." The two overlapping calendar
+                     cycles designate months corresponding to AICU's summer, fall, and spring
+                     semesters.
                   </p>
                   <Link
                      href="/"
@@ -35,7 +38,9 @@ const AcademicCalendarSection: React.FC = () => {
                </div>
             </div>
             <div className="max-w-6xl mx-auto">
-               <h2 className="text-2xl md:text-3xl font-bold text-[#4052B5] mb-8">Academic Calendar</h2>
+               <h2 className="text-2xl md:text-3xl font-bold text-[#4052B5] mb-8">
+                  Academic Calendar
+               </h2>
 
                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">

@@ -5,6 +5,7 @@ import Programs from "./components/Programs";
 const DegreePrograms = () => {
    return (
       <>
+         <title>Apply for Undergraduate and Masters</title>
          <HeaderPage
             text="Apply for Undergraduate and Masters"
             image="/admission/ad-22.jpg"

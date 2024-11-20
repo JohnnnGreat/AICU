@@ -66,6 +66,7 @@ const RequirementsComponent: React.FC = () => {
 
    return (
       <>
+         <title>Requirements for Admission</title>
          <HeaderPage
             text="Requirements for Admission"
             image="/admission/ad-two.jpg"
