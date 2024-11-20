@@ -15,7 +15,7 @@ export const aboutDropdownContent = {
    ],
    MEDIA: [
       { label: "News and Events", href: "/media/news" },
-      { label: "Photo Gallery", href: "/media/gallery" },
+      { label: "Photo Gallery", href: "/photo-gallery" },
    ],
 };
 
