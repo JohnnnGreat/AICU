@@ -2,7 +2,7 @@ import HeaderPage from "@/components/Shared/HeaderPage";
 import React from "react";
 
 const AcademicsComponent = ({ data }) => {
-   console.log(data);
+   
    return (
       <>
          <HeaderPage
