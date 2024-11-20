@@ -375,15 +375,30 @@ const MobileDropdown = ({ title, content, isOpen, onToggle }) => {
                   >
                      <h3 className="font-semibold text-blue-900 text-sm mb-2">{section}</h3>
                      <div className="flex flex-col space-y-2">
-                        {items.map((item) => (
-                           <Link
-                              key={item.label}
-                              href={item.href}
-                              className="text-gray-700 hover:text-blue-700 text-sm"
-                           >
-                              {item.label}
-                           </Link>
-                        ))}
+                        <div className="flex flex-col space-y-3">
+                           {items.map((item, index) =>
+                              item.img ? (
+                                 <div
+                                    key={`img-${index}`}
+                                    className="mt-4"
+                                 >
+                                    <img
+                                       src={item.img}
+                                       alt={item.alt}
+                                       className="rounded-lg w-full h-[70px] object-cover"
+                                    />
+                                 </div>
+                              ) : (
+                                 <Link
+                                    key={item.label}
+                                    href={item.href}
+                                    className="text-gray-700 hover:text-blue-700 text-sm transition-colors"
+                                 >
+                                    {item.label}
+                                 </Link>
+                              ),
+                           )}
+                        </div>
                      </div>
                   </div>
                ))}
