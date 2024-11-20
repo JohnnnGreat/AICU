@@ -46,7 +46,7 @@ const footerData = {
 
 const Footer = () => {
    return (
-      <footer className="bg-[#1E2949] text-white  ">
+      <footer className="bg-[#19293d] text-white  ">
          <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"
@@ -58,9 +58,9 @@ const Footer = () => {
                d="M738,99l262-93V0H0v5.6L738,99z"
             ></path>
          </svg>
-         <div className="container mx-auto px-6 py-[2rem]">
+         <div className="max-w-[1100px] mx-auto px-6 py-[3rem]">
             {/* Top Section */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center md:text-left mb-8">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8  md:text-left mb-8">
                {/* About Section */}
                <div>
                   <h3 className="text-yellow-500 font-semibold mb-4">About AICU</h3>
@@ -124,7 +124,7 @@ const Footer = () => {
                            {item.button ? (
                               <Link
                                  href={item.link}
-                                 className="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700"
+                                 className="bg-[#2C6695] text-white py-2 px-4 rounded hover:bg-blue-700"
                               >
                                  {item.title}
                               </Link>
@@ -143,11 +143,13 @@ const Footer = () => {
             </div>
 
             {/* Middle Section with Address and Contact Info */}
-            <div className="border-t border-gray-700 py-4 flex flex-col md:flex-row items-center justify-between text-center md:text-left text-gray-400">
-               <div>
-                  <p className="mb-2 md:mb-0">
-                     <strong>ADDRESS:</strong> {footerData.contact.address}
-                  </p>
+            <div className="border-t text-[.9rem] border-gray-700 py-[2rem] flex flex-col md:flex-row items-center justify-between  md:text-left text-white">
+               <div className="w-full">
+                  <h1>ADDRESS</h1>
+                  <p>{footerData.contact.address}</p>
+               </div>
+
+               <div className="w-full">
                   <p className="mb-2 md:mb-0">
                      <strong>PHONE:</strong> {footerData.contact.phone}
                   </p>
@@ -169,8 +171,8 @@ const Footer = () => {
                   className="w-24 h-auto mb-4"
                />
 
-               <p className="text-sm text-gray-400 mb-4">
-                  © 2024 AICU. All Rights Reserved | Web Design & Hosting by MSPSStream
+               <p className="text-sm text-gray-400 mb-4 text-center">
+                  © 2024 AICU. All Rights Reserved <br /> Web Design & Hosting by MSPSStream
                </p>
 
                {/* Social Media Links */}
@@ -206,6 +208,17 @@ const Footer = () => {
                </div>
             </div>
          </div>
+         <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1000 100"
+            preserveAspectRatio="none"
+            className="-rotate-180 fill-[#f0bd14] h-[40px] w-full"
+         >
+            <path
+               className="elementor-shape-fill"
+               d="M500,98.9L0,6.1V0h1000v6.1L500,98.9z"
+            ></path>
+         </svg>
       </footer>
    );
 };

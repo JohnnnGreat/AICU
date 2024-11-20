@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { usePathname } from "next/navigation";
+import { notFound, usePathname, useRouter } from "next/navigation";
 import { faculty } from "@/components/Pages/Faculty/constants";
 import FacultyComponent from "@/components/Pages/Faculty";
 
@@ -8,7 +8,10 @@ const FacultyPage = () => {
    const params = usePathname().split("/")[2];
 
    const filterResearch = faculty[params];
-
+  const router = useRouter();
+  if (!filterResearch) {
+     notFound();
+  }
    return (
       <FacultyComponent
          fType={params}

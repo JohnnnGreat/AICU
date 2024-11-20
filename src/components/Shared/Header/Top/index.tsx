@@ -5,7 +5,7 @@ import Link from "next/link";
 const Navbar = () => {
    return (
       <nav className="bg-[#0d0c37]  py-4 px-8">
-         <div className="max-w-[1000px] mx-auto flex items-center justify-between">
+         <div className="max-w-[1000px] mx-auto flex items-center md:justify-between gap-y-[2rem] flex-wrap justify-center">
             {" "}
             {/* Left side - Logo or title */}
             <div className="text-white font-medium text-sm">Students Achievements</div>

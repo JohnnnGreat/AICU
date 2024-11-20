@@ -40,8 +40,8 @@ const Header = () => {
    return (
       <>
          <Navbar />
-         <header className="w-full bg-white shadow-sm h-[120px]">
-            <div className="max-w-[1100px] mx-auto px-4 h-[120px] hidden md:block">
+         <header className="w-full bg-white shadow-sm py-[1.5rem]">
+            <div className="max-w-[1100px] mx-auto px-4  hidden md:block">
                <div className="flex items-center justify-between h-full">
                   <Link
                      href="/"
@@ -275,7 +275,7 @@ const Header = () => {
                   </Link>
                </div>
             </div>
-            <div className="md:hidden">
+            <div className="md:hidden w-[100%!important]">
                <div className="flex items-center justify-between p-4">
                   <Link
                      href="/"
