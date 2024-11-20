@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { programs } from "./constants";
-import ProgramCard from "@/Components/Shared/ProgramCard";
+import ProgramCard from "@/components/Shared/ProgramCard";
 
 const ProgramsSection = () => {
    const [tiltStyle, setTiltStyle] = useState({});
