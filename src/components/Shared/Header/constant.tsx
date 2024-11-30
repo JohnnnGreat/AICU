@@ -14,7 +14,7 @@ export const aboutDropdownContent = {
       { label: "Board of Trustees", href: "/about/board-of-trustees" },
    ],
    MEDIA: [
-      { label: "News and Events", href: "/media/news" },
+      // { label: "News and Events", href: "/media/news" },
       { label: "Photo Gallery", href: "/photo-gallery" },
    ],
 };
