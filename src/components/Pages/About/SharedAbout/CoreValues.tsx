@@ -13,7 +13,7 @@ const CoreValues = () => {
                <strong>
                   Our sovereign Lord, Jesus the Christ, has called us individually and collectively
                   to love our God and to love our neighbors as ourselves—above all else. To that
-                  end, we, the board, faculty, and staff of RUNA:
+                  end, we, the board, faculty, and staff of AICU:
                </strong>
                <ul className="list-disc ml-6 mt-2">
                   <li>
@@ -37,7 +37,7 @@ const CoreValues = () => {
                      While we have opinions about many things, we are going to stake on the
                      following four values that will determine the way we work together and with
                      students, faculty, donors, partners, the public, and every other stakeholder of
-                     RUNA.
+                     AICU.
                   </li>
                </ul>
             </p>
@@ -73,13 +73,66 @@ const CoreValues = () => {
                </strong>
                <ul className="list-disc ml-6 mt-2">
                   <li>Being accountable to one another.</li>
-                  <li>RUNA at a Glance - Redeemers University North America</li>
+                  <li>AICU at a Glance - Redeemers University North America</li>
+                  <li>
+                     Dealing with conflict in a direct manner. d. We honor one another by listening
+                     and communicating in an open, patient, and sensitive manner.
+                  </li>
+                  <li>We encourage and value each person’s input, ideas, and perspectives.</li>
+                  <li>We show consideration through clear communications and punctuality.</li>
+                  <li>
+                     We acknowledge our differences and work together to complement our strengths
+                     and weaknesses.
+                  </li>
                </ul>
             </p>
          ),
       },
-      { title: "Integrity", content: <p>Content for Integrity section...</p> },
-      { title: "Community", content: <p>Content for Community section...</p> },
+      {
+         title: "Integrity",
+         content: (
+            <p>
+               <strong>
+                  Integrity We seek to be an honest reflection of God who became visible in Jesus
+                  Christ. The fundamental spirituality of Jesus is submission to the will of God. We
+                  therefore:
+               </strong>
+               <ul className="list-disc ml-6 mt-2">
+                  <li>
+                     Listen intently for God’s direction and commit without excuse to pursue that
+                     path
+                  </li>
+                  <li>
+                     We pursue truth with grace, holiness with mercy, and justice with compassion.
+                  </li>
+                  <li>We strive to be authentic in our words, emotions, and actions.</li>
+               </ul>
+            </p>
+         ),
+      },
+      {
+         title: "Community",
+         content: (
+            <p>
+               <strong>
+                  Recognizing the triune God exists forever in community expressed in the church as
+                  body and family, we live into that calling.
+               </strong>
+               <ul className="list-disc ml-6 mt-2">
+                  <li>
+                     We commit to listen, pray, speak, work, study, suffer, struggle, and do
+                     theology together, not solely or in isolation.
+                  </li>
+                  <li>
+                     Our communion is local and global. It includes the saints of the past, “that
+                     great cloud of witnesses,” our partners, our teams, our students, and those
+                     they serve
+                  </li>
+                  <li>We strive to be authentic in our words, emotions, and actions.</li>
+               </ul>
+            </p>
+         ),
+      },
    ];
 
    const toggleSection = (index) => {
@@ -102,7 +155,7 @@ const CoreValues = () => {
             <h2 className="text-2xl font-bold text-blue-700 mb-4">Core Values</h2>
             <p className="text-gray-600 mb-6">
                We have five core institutional values to sustain our strategic plan and offer an
-               essential context for the successful execution of RUNA's mission.
+               essential context for the successful execution of AICU's mission.
             </p>
 
             {/* Dropdown Sections */}
