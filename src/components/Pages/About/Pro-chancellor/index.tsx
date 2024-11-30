@@ -30,7 +30,7 @@ const ProChancellor = () => {
             {/* Text Content */}
             <div className="md:ml-8 mt-4 md:mt-0 max-w-2xl">
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  Pastor James O. Fadel, M.S.O.R., M.B.A., D.Min., is the Pro-Chancellor of RUNA in Floyd, TX. He is an
+                  Pastor James O. Fadel, M.S.O.R., M.B.A., D.Min., is the Pro-Chancellor of AICU in Floyd, TX. He is an
                   Assistant General Overseer of The Redeemed Christian Church of God (RCCG) worldwide as well as the
                   Continental Overseer and Chairman of the Board of Regional and Provincial Pastors of RCCG The
                   Americas1.

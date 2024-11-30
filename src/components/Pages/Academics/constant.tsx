@@ -6,7 +6,7 @@ export const programsAc = {
          {
             name: "MASTERS DEGREE IN MINISTRY (M.A.)",
             description:
-               "At RUNA, the Master of Arts in Ministry is designed to disciple individuals primarily, mentoring them in God's call to serve.",
+               "At AICU, the Master of Arts in Ministry is designed to disciple individuals primarily, mentoring them in God's call to serve.",
             courseDetails: "COURSE DETAILS>",
             imageUrl: "/Academics/ad-1.jpg",
 
@@ -31,7 +31,7 @@ export const programsAc = {
          {
             name: "MASTERS DEGREE IN ARTS - MISSIONS AND INTERCULTURAL STUDIES (M.A.)",
             description:
-               "The purpose of the Master of Arts in Missions and Intercultural Studies in RUNA is to prepare graduates for effective service in cross-cultural contexts.",
+               "The purpose of the Master of Arts in Missions and Intercultural Studies in AICU is to prepare graduates for effective service in cross-cultural contexts.",
             courseDetails: "COURSE DETAILS>",
             imageUrl: "/Academics/ad-4.jpg",
             redirect: "/2024/02/16/missions-and-intercultural-studies/",
@@ -39,7 +39,7 @@ export const programsAc = {
          {
             name: "MASTERS DEGREE IN COUNSELING (M.A.)",
             description:
-               "RUNA's master's degree in counseling includes courses, practicums, and educational experiences that offer comprehensive preparation for practice as a counselor.",
+               "AICU's master's degree in counseling includes courses, practicums, and educational experiences that offer comprehensive preparation for practice as a counselor.",
             courseDetails: "COURSE DETAILS>",
             imageUrl: "/Academics/ad-5.jpg",
             redirect: "/2024/04/19/master-of-arts-in-counseling/ ",
@@ -70,7 +70,7 @@ export const programsAc = {
          {
             name: "Doctor of Ministry (D.Min.)",
             description:
-               "Our Doctor of Ministry (D.Min.) program reflects the core competencies and skills that students are expected to acquire during their doctoral studies at RUNA. The",
+               "Our Doctor of Ministry (D.Min.) program reflects the core competencies and skills that students are expected to acquire during their doctoral studies at AICU. The",
             courseDetails: "COURSE DETAILS>",
             imageUrl: "/Academics/ad-8.jpg",
             redirect: "/2024/02/15/doctor-of-ministry/",
@@ -101,7 +101,7 @@ export const programsAc = {
          {
             name: "Graduate Certificate in Counseling",
             description:
-               "A post-graduate diploma course in counseling at RUNA serves several purposes, catering to individuals interested in professional development within the counseling field.",
+               "A post-graduate diploma course in counseling at AICU serves several purposes, catering to individuals interested in professional development within the counseling field.",
             redirect: "/2024/02/15/graduate-certificate-in-counseling/",
             imageUrl: "/Academics/ad-12.jpg",
             courseDetails: "COURSE DETAILS>",

@@ -8,7 +8,7 @@ export const discover = [
       image: "/discover/d-one.jpg",
    },
    {
-      text: "RUNA AT GLANCE",
+      text: "AICU AT GLANCE",
       image: "/discover/d-two.jpg",
    },
    {

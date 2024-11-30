@@ -9,7 +9,7 @@ const History = () => {
                <h1 className="text-pri text-[2rem] font-bold ">Our History</h1>
                <p className="text-[#00000094] mt-[1rem] leading-relaxed">
                   {" "}
-                  Redeemers University North America (RUNA), formerly known as Redeemed Christian Church of God North
+                  Redeemers University North America (AICU), formerly known as Redeemed Christian Church of God North
                   America Seminary, was founded by the Redeemed Christian Church of God in 2012.{" "}
                   <a
                      target="_black"
@@ -35,10 +35,10 @@ const History = () => {
                   ambassadors for Christ who would help further this mission. The Seminary provided a
                   biblically-centered education through classroom and online teaching with focused instruction on
                   Biblical studies, theology, pastoral leadership, and ministry. Its pedagogy centered around meeting
-                  the needs of the local church. The University transitioned from RCCGNA Seminary to RUNA in 2023.
+                  the needs of the local church. The University transitioned from RCCGNA Seminary to AICU in 2023.
                </p>
                <p className="text-[#00000094] mt-[1rem] leading-relaxed">
-                  At RUNA today, we strive to cultivate a community of lifelong learners who are deeply rooted in
+                  At AICU today, we strive to cultivate a community of lifelong learners who are deeply rooted in
                   Scripture, committed to excellence in ministry, and passionate about advancing the Kingdom of God.
                   With a firm foundation in God’s Word and a heart for service, our students are prepared to fulfill
                   their calling as ambassadors of Jesus Christ, bringing hope, healing, and transformation to

@@ -28,7 +28,7 @@ const Navbar = () => {
 
                {/* Button */}
                <Button className="bg-transparent px-8 py-2 text-xs font-bold text-white hover:bg-[#CAA71D] border border-[#af9e5a] rounded-full">
-                  GIVE TO RUNA
+                  GIVE TO AICU
                </Button>
             </div>
             {/* Right side - Links */}

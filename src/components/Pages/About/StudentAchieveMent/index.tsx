@@ -81,7 +81,7 @@ const StatsSection = () => {
          className="py-16 text-center max-w-[1100px] mx-auto px-[1rem]"
          ref={ref}
       >
-         <h1 className="text-pri my-[2rem] uppercase tracking-wide font-light">This is RUNA</h1>
+         <h1 className="text-pri my-[2rem] uppercase tracking-wide font-light">This is AICU</h1>
          <h2 className="text-[2.5rem] font-bold text-pri mb-[1rem]">By the Numbers</h2>
          <h1 className="text-pri my-[2rem] uppercase tracking-wide font-bold">2022-2023</h1>
          <h2></h2>

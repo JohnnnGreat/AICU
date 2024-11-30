@@ -223,8 +223,8 @@ export const programs_main = {
       headerText: "Doctor of Ministry (D.Min.)",
       headerImage: "/programs/pro-19.jpg",
       pageNotes: [
-         "Our Doctor of Ministry (D.Min.) program reflects the core competencies and skills that students are expected to acquire during their doctoral studies at RUNA.",
-         "The program develops students’ skills—whether in pastoral ministry, church leadership, or another area of practical theology—aligns with RUNA’s unique goals and mission, and meets the student’s needs.",
+         "Our Doctor of Ministry (D.Min.) program reflects the core competencies and skills that students are expected to acquire during their doctoral studies at AICU.",
+         "The program develops students’ skills—whether in pastoral ministry, church leadership, or another area of practical theology—aligns with AICU’s unique goals and mission, and meets the student’s needs.",
          "Program Credit Required: 58 credits, which consist of intensive residency courses (36 credits), research writing courses (6 credits), thesis with defense (6 credits), and concentration courses (10 credits).",
          "Program Length: 3 years",
          "Program Prerequisite: A Master of Divinity (MDiv) with a minimum GPA of 3.0 is a prerequisite for the Doctor of Ministry program.",

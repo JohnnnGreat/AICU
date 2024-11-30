@@ -3,7 +3,7 @@ export const programs = [
       id: 1,
       title: "Undergraduate Programs",
       description:
-         "The RUNA undergraduate programs cater to individuals seeking to prepare themselves for ministry work by enhancing their understanding of Scripture and equipping them for their calling.",
+         "The AICU undergraduate programs cater to individuals seeking to prepare themselves for ministry work by enhancing their understanding of Scripture and equipping them for their calling.",
       credits: "03",
       image: "placeholder.jpg", // Replace with actual image path
    },

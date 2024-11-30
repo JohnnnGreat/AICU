@@ -33,8 +33,8 @@ const OurChancellor = () => {
                   Grace and peace to you from God our Father and the Lord Jesus Christ.
                </p>
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  I am excited to be part of the forward marching in the history of the RUNA. We are grateful to God for
-                  what He is doing in and through our faculty and students. At the RUNA, our primary curriculum is the
+                  I am excited to be part of the forward marching in the history of the AICU. We are grateful to God for
+                  what He is doing in and through our faculty and students. At the AICU, our primary curriculum is the
                   Bible; our specific content is the Word of God. We are determined to hold on to these principles. At
                   our college, students not only receive solid Biblical teaching, they also experience the richness of
                   the presence of the Holy Spirit in their lives. Students from around world and from other ministries
@@ -42,9 +42,9 @@ const OurChancellor = () => {
                   the kind of practical preparation needed for effective ministry.
                </p>
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  I am delighted that you have decided to pursue your education at the RUNA. As you pray for God’s
+                  I am delighted that you have decided to pursue your education at the AICU. As you pray for God’s
                   direction in your purpose-driven life and ministry, you can be assured that the faculty members at the
-                  RUNA are dedicated to preparing you for work in our Lord’s Vineyard. Your membership of the college
+                  AICU are dedicated to preparing you for work in our Lord’s Vineyard. Your membership of the college
                   family allows you to enjoy the peace and happiness of a worldwide community of servant-leaders who are
                   dedicated to reaching the lost of this turbulent world for the Kingdom of God.
                </p>

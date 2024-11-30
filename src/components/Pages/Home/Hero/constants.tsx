@@ -13,7 +13,7 @@ export const carousel = [
       imageUrl: "/hero/hero-two.jpg",
       title: "Servants To the Nations",
       description:
-         "RUNA envisions a teaching team that is focused on serving the nations. We desire to develop others who will be servants to the nations. We model the Seminary and the life options of the faculty after the Scriptures ",
+         "AICU envisions a teaching team that is focused on serving the nations. We desire to develop others who will be servants to the nations. We model the Seminary and the life options of the faculty after the Scriptures ",
       ctaText: "About Us",
       ctaUrl: "/about",
    },
@@ -21,7 +21,7 @@ export const carousel = [
       imageUrl: "/hero/hero-three.jpg",
       title: "A Mentoring Paradigm",
       description:
-         "RUNA is committed to a strategy of using seasoned professionals who are active in their field of specialization as instructors. These instructors are academically qualified and are currently engaged in doing the type of ministry they teach. ",
+         "AICU is committed to a strategy of using seasoned professionals who are active in their field of specialization as instructors. These instructors are academically qualified and are currently engaged in doing the type of ministry they teach. ",
       ctaText: "Learn More",
       ctaUrl: "/about",
    },
@@ -29,7 +29,7 @@ export const carousel = [
       imageUrl: "/hero/hero-four.jpg",
       title: "Biblical Foundations for Learning ",
       description:
-         "RUNA pursues an educational philosophy that focuses on structured theoretical basis for a focused commitment to the practice of ministry. Our foundational textbook is the Bible. ",
+         "AICU pursues an educational philosophy that focuses on structured theoretical basis for a focused commitment to the practice of ministry. Our foundational textbook is the Bible. ",
       ctaText: "Learn More",
       ctaUrl: "/about",
    },

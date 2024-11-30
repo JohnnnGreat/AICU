@@ -9,20 +9,20 @@ const MissionAndVisionFirst = () => {
    const content = {
       "Mission & Vision": {
          information: [
-            "mission: At RUNA, our mission is to cultivate a Christ-centered community that develops leaders as ambassadors of Jesus Christ, promoting spiritual growth, moral integrity, and academic excellence to advance God's Kingdom in a diverse world.",
+            "mission: At AICU, our mission is to cultivate a Christ-centered community that develops leaders as ambassadors of Jesus Christ, promoting spiritual growth, moral integrity, and academic excellence to advance God's Kingdom in a diverse world.",
 
             "vision: Our vision is to be a globally recognized institution that shapes Christ-centered leaders who excel academically and advance God's Kingdom through transformative innovation in society.",
          ],
       },
       "Statement of Faith": {
-         intro: "In alignment with the Lausanne Covenant, Redeemers University North America (RUNA) seeks to be a community that glorifies God through academic excellence, spiritual formation, and faithful witness to the world. sAt RUNA, we believe in:",
+         intro: "In alignment with the Lausanne Covenant, Redeemers University North America (AICU) seeks to be a community that glorifies God through academic excellence, spiritual formation, and faithful witness to the world. sAt AICU, we believe in:",
          information: [
             "The Authority of Scripture: We believe the Bible is God's inspired, infallible, and authoritative Word. The Bible is the supreme guide for our faith and conduct. We are dedicated to the diligent study and teaching of Scripture, aiming to equip our students to live out its truths in every aspect of their lives.",
             "The Trinity: We believe in one God, eternally existent in three distinct Persons: the Father, the Son, and the Holy Spirit. These three Persons are co-equal, co-eternal, and consubstantial, sharing the same divine essence, yet maintaining distinct personal attributes and roles within the Godhead.",
             "The Uniqueness and Universality of Christ: We affirm that Jesus Christ is the only Savior and that His life, death, and resurrection provide the sole means of salvation for all humanity. We uphold the necessity of proclaiming this gospel to all nations, calling everyone to faith and obedience in Christ.",
             "The Nature of Evangelism: We believe evangelism is the proclamation of the historical, biblical Christ as Savior and Lord, to persuade people to come to Him personally and be reconciled to God. We are committed to fostering a spirit of evangelism within our University community, encouraging students and staff to share their faith with clarity and compassion.",
             "Christian Social Responsibility: We acknowledge that God is the Creator and Judge of all people. Therefore, we are called to exhibit His justice and compassion by caring for the poor and underprivileged and by being stewards of His creation. We strive to integrate social responsibility into our curriculum, service opportunities, and campus life.",
-            "The Uniqueness of RUNA's Mission: We affirm that the center of God's cosmic purpose and is His appointed means of spreading the gospel to the nations and cultivating with local churches, encouraging our students to engage actively in church life and mission.",
+            "The Uniqueness of AICU's Mission: We affirm that the center of God's cosmic purpose and is His appointed means of spreading the gospel to the nations and cultivating with local churches, encouraging our students to engage actively in church life and mission.",
             "The Importance of Unity: We believe that the unity of all believers, recognizing that our common faith in Christ transcends denominational and cultural differences. We promote a spirit of unity and cooperation.",
          ],
       },

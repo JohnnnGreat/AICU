@@ -4,7 +4,7 @@ import React from "react";
 const StudentHandbook: React.FC = () => {
    return (
       <>
-         <title>Student Handboo</title>
+         <title>Student Handbook</title>
          <HeaderPage
             text="Student Handbook"
             image="/admission/ad-14.jpg"

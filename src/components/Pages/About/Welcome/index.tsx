@@ -36,7 +36,7 @@ const Welcome = () => {
                   have you here.
                </p>
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  At RUNA, we are committed to preparing and equipping leaders to become ambassadors
+                  At AICU, we are committed to preparing and equipping leaders to become ambassadors
                   of Christ worldwide who will impact their spheres of influence for the Kingdom of
                   God. As an institution committed to academic excellence, we offer extensive
                   academic programs, innovative teaching approaches, student-centered learning
@@ -47,7 +47,7 @@ const Welcome = () => {
                </p>
                <p className="text-gray-700 mb-4 text-[.8rem]">
                   Thank you for considering the Redeemers University North America as a place where
-                  you can learn, grow, and thrive. I invite you to continue engaging with our RUNA
+                  you can learn, grow, and thrive. I invite you to continue engaging with our AICU
                   community via our website and social media. I look forward to welcoming you to our
                   campus in person or virtually as we embark on this educational journey together.
                </p>
