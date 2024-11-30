@@ -28,8 +28,8 @@ export const admissionsContent = {
       { label: "Student Handbook", href: "/admissions/student-handbook" },
    ],
    "INTERNATIONAL STUDENTS": [
-      { label: "Complete Guide & Check List", href: "/international/guide" },
-      { label: "Financial Information", href: "/international/financial-info" },
+      { label: "Complete Guide & Check List", href: "/admissions/guide" },
+      { label: "Financial Information", href: "/admissions/financial-info" },
       {
          label: "Apply for Undergraduate & Masters",
          href: "/admissions/apply-for-undergraduate-and-masters",
