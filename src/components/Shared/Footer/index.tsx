@@ -31,8 +31,8 @@ const footerData = {
       { title: "Apply Now", link: "#", button: true },
    ],
    contact: {
-      address: "4320 Highway 380 Business, Greenville TX 75401",
-      phone: "+1 (214) 500-4893",
+      address: "Columbia Sc Usa Office 1201 Main Columbia Sc 39201. Suite 1989",
+      phone: "80337208012",
       email: "info@AICU.us",
       hours: "Monday - Friday 9AM - 5PM",
    },
@@ -166,7 +166,7 @@ const Footer = () => {
             <div className="border-t border-gray-700 py-4 flex flex-col items-center">
                {/* University Logo */}
                <img
-                  src="/logo.png"
+                  src="/logo-uni.png"
                   alt="University Logo"
                   className="w-24 h-auto mb-4"
                />
