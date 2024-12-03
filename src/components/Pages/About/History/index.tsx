@@ -9,7 +9,7 @@ const History = () => {
                <h1 className="text-pri text-[2rem] font-bold ">Our History</h1>
                <p className="text-[#00000094] mt-[1rem] leading-relaxed">
                   {" "}
-                  Redeemers University North America (AICU), formerly known as Redeemed Christian Church of God North
+                  American International Christian University (AICU), formerly known as Redeemed Christian Church of God North
                   America Seminary, was founded by the Redeemed Christian Church of God in 2012.{" "}
                   <a
                      target="_black"

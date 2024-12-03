@@ -73,7 +73,7 @@ const CoreValues = () => {
                </strong>
                <ul className="list-disc ml-6 mt-2">
                   <li>Being accountable to one another.</li>
-                  <li>AICU at a Glance - Redeemers University North America</li>
+                  <li>AICU at a Glance - American International Christian University</li>
                   <li>
                      Dealing with conflict in a direct manner. d. We honor one another by listening
                      and communicating in an open, patient, and sensitive manner.

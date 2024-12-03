@@ -15,7 +15,7 @@ const MissionAndVisionFirst = () => {
          ],
       },
       "Statement of Faith": {
-         intro: "In alignment with the Lausanne Covenant, Redeemers University North America (AICU) seeks to be a community that glorifies God through academic excellence, spiritual formation, and faithful witness to the world. sAt AICU, we believe in:",
+         intro: "In alignment with the Lausanne Covenant, American International Christian University (AICU) seeks to be a community that glorifies God through academic excellence, spiritual formation, and faithful witness to the world. sAt AICU, we believe in:",
          information: [
             "The Authority of Scripture: We believe the Bible is God's inspired, infallible, and authoritative Word. The Bible is the supreme guide for our faith and conduct. We are dedicated to the diligent study and teaching of Scripture, aiming to equip our students to live out its truths in every aspect of their lives.",
             "The Trinity: We believe in one God, eternally existent in three distinct Persons: the Father, the Son, and the Holy Spirit. These three Persons are co-equal, co-eternal, and consubstantial, sharing the same divine essence, yet maintaining distinct personal attributes and roles within the Godhead.",
