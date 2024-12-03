@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import Link from "next/link";
@@ -10,9 +11,9 @@ const Navbar = () => {
             {/* Left side - Logo or title */}
             <div className="text-white font-medium text-sm">Students Achievements</div>
             {/* Middle - Search bar and button */}
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 flex-wrap md:flex-nowrap">
                {/* Search bar */}
-               <div className="flex items-center gap-3 pl-3 pr-4 py-2 text-gray-300 bg-[#0d0c37] border border-[#af9e5a] rounded-full outline-none placeholder-gray-500">
+               <div className="flex items-center gap-3 pl-3 pr-4 py-2 text-gray-300 bg-[#0d0c37] border border-[#af9e5a] rounded-full outline-none placeholder-gray-500 w-full">
                   <Search
                      className=" text-gray-500"
                      size={16}
@@ -20,16 +21,14 @@ const Navbar = () => {
                   <input
                      type="text"
                      placeholder="Search"
-                     className="bg-transparent outline-none border-none placeholder:text-[.8rem] pr-[2rem]"
+                     className="bg-transparent outline-none border-none placeholder:text-[.8rem] pr-[2rem] w-full"
 
                      //  className="pl-8 pr-4 py-2 text-gray-300 bg-[#0d0c37] border border-[#af9e5a] rounded-full outline-none placeholder-gray-500"
                   />
                </div>
 
                {/* Button */}
-               <Button className="bg-transparent px-8 py-2 text-xs font-bold text-white hover:bg-[#CAA71D] border border-[#af9e5a] rounded-full">
-                  GIVE TO AICU
-               </Button>
+               <Button className="bg-transparent px-8 py-2 text-xs font-bold text-white hover:bg-[#CAA71D] border border-[#af9e5a] rounded-full">GIVE TO AICU</Button>
             </div>
             {/* Right side - Links */}
             <div className="flex items-center gap-4 text-white text-xs font-medium">

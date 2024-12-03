@@ -15,7 +15,7 @@ const CoreValues = () => {
                   to love our God and to love our neighbors as ourselves—above all else. To that
                   end, we, the board, faculty, and staff of AICU:
                </strong>
-               <ul className="list-disc ml-6 mt-2">
+               <ul className="list-decimal ml-6 mt-2">
                   <li>
                      Commit to pursuing our work together with the passion that comes from
                      recognizing we are called to our work and relationships by God for purposes
@@ -140,7 +140,7 @@ const CoreValues = () => {
    };
 
    return (
-      <section className="flex flex-col lg:flex-row items-start lg:space-x-6 p-6">
+      <section className="max-w-[1100px] mx-auto flex flex-col lg:flex-row items-start lg:space-x-6 p-6">
          {/* Left: Image */}
          <div className="lg:w-1/2">
             <img
