@@ -8,7 +8,7 @@ const OrdinationSection: React.FC = () => {
          <div
             className="hidden md:block absolute inset-0 bg-cover bg-center bg-no-repeat w-full lg:w-[50%] z-10"
             style={{
-               backgroundImage: `url('/program-img.jpg')`,
+               backgroundImage: `url('/ai.jpg')`,
                backgroundAttachment: "fixed",
                clipPath: "polygon(0 0, 100% 0, 45% 100%, 0 100%)",
             }}
@@ -20,9 +20,7 @@ const OrdinationSection: React.FC = () => {
             <div className="h-full flex flex-col justify-center px-6 py-8 sm:px-12 lg:px-16">
                <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">2 Ordination Tracks</h2>
                <p className="text-gray-600 mb-6 max-w-full sm:max-w-lg">
-                  The Diploma in Ministry program is designed for men and women who are serving in a leadership role in
-                  their local church or another ministry position. The diploma provides a depth of training in the
-                  Bible, theology, and a broad range of ministry skills.
+                  The Diploma in Ministry program is designed for men and women who are serving in a leadership role in their local church or another ministry position. The diploma provides a depth of training in the Bible, theology, and a broad range of ministry skills.
                </p>
                <Button
                   variant="default"

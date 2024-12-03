@@ -26,7 +26,7 @@ const ProgramsSection = () => {
    return (
       <div
          style={{
-            backgroundImage: `url('program-img.jpg')`, // Replace with actual background image
+            backgroundImage: `url('/program-img.jpg')`, // Replace with actual background image
             perspective: "1000px", // Adds 3D perspective
             position: "relative", // Required for overlay positioning
             overflow: "hidden",

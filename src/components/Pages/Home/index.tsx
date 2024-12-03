@@ -3,6 +3,7 @@ import HeroSection from "./Hero";
 import Discover from "./Discover";
 import Programs from "./Programs";
 import OrdinationSection from "./Ordination";
+import AdvisorSection from "./AdvisorSection";
 
 const HomePage = () => {
    return (
@@ -16,6 +17,7 @@ const HomePage = () => {
          <Discover />
          <Programs />
          <OrdinationSection />
+         <AdvisorSection />
       </>
    );
 };
