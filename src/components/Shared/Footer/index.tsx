@@ -33,7 +33,7 @@ const footerData = {
    contact: {
       address: "Columbia Sc Usa Office 1201 Main Columbia Sc 39201. Suite 1989",
       phone: "80337208012",
-      email: "info@AICU.us",
+      email: "info@aicuedu.org",
       hours: "Monday - Friday 9AM - 5PM",
    },
    socialLinks: [
