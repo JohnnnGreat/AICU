@@ -38,7 +38,7 @@ export default function RootLayout({
             />
             <meta
                property="og:image"
-               content="/logo-uni.jpg"
+               content="/logo-uni.png"
             />
             <meta
                property="og:url"
@@ -64,13 +64,13 @@ export default function RootLayout({
             />
             <meta
                name="twitter:image"
-               content="/logo-uni.jpg"
+               content="/logo-uni.png"
             />
 
             {/* Favicon */}
             <link
                rel="icon"
-               href="/logo-uni.jpg"
+               href="/logo-uni.png"
             />
             {isLoaded && (
                <div>
