@@ -66,6 +66,10 @@ export default function RootLayout({
                name="twitter:image"
                content="/logo-uni.png"
             />
+            <meta
+               name="google-site-verification"
+               content="lAHQ7mxq9KohBtYqsbyz_re5rp6-2RHPWc2giu8IfIk"
+            />
 
             {/* Favicon */}
             <link
