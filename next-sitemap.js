@@ -1,8 +1,15 @@
+/** @type {import('next-sitemap').IConfig} */
 module.exports = {
-   siteUrl: "https://www.aicuedu.org",
+   siteUrl: "https://aicuedu.org", // Replace with your actual domain
    generateRobotsTxt: true,
-   sitemapSize: 7000,
-   outDir: "./public",
-   changefreq: "daily",
-   priority: 0.7,
+   exclude: ["/admin/*", "/dashboard/*"],
+   // Optional: custom transformations
+   transform: async (config, url) => {
+      return {
+         loc: url,
+         changefreq: "daily",
+         priority: 0.7,
+         lastmod: new Date().toISOString(),
+      };
+   },
 };
