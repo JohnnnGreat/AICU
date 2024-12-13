@@ -1,3 +1,4 @@
+"use client";
 import Head from "next/head";
 import HeroSection from "./Hero";
 import Discover from "./Discover";

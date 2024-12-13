@@ -26,7 +26,16 @@ const MissionAndVisionFirst = () => {
             "The Importance of Unity: We believe that the unity of all believers, recognizing that our common faith in Christ transcends denominational and cultural differences. We promote a spirit of unity and cooperation.",
          ],
       },
-      "Institutional Objectives": [],
+      "Institutional Objectives": {
+         information: [
+            "Foster Spiritual Growth and Moral Integrity: Cultivate a deep, authentic Christian faith in students, encouraging them to embody Christ's teachings and uphold strong moral and ethical values in their personal and professional lives.",
+            "Promote Academic Excellence and Holistic Education: Provide rigorous, intellectually challenging academic programs that integrate Christian principles. These programs will ensure that students are well-prepared to lead while nurturing their spiritual, intellectual, emotional, and physical development.",
+            "Develop Effective and Ethical Leaders: Equip students with leadership skills rooted in Christian ethics, enabling them to influence and transform communities, professions, and global missions with integrity and purpose.",
+            "Embrace Diversity and Foster a Collaborative Community: Create an inclusive learning environment that celebrates global diversity and builds a supportive, collaborative community among faculty, staff, and students, fostering mutual respect and spiritual growth.",
+            "Engage in Research, Innovation, and Community Service: Encourage research and innovative thinking from a Christian worldview while promoting active participation in service and outreach programs that advance God's kingdom and contribute to societal well-being.",
+            "Provide Accessible Online Learning Tools: This technology will give students access to teaching resources and allow them to communicate with professors efficiently. Develop a physical library and massive online repository of reading materials, which will be linked with existing online theological libraries and build a media vault with unique picture, video, and audio materials. The goal is to support every student's need for any material that will aid in the study process.",
+         ],
+      },
    };
 
    const toggleSection = (section) => {
@@ -75,7 +84,9 @@ const MissionAndVisionFirst = () => {
                                     </p>
                                     <ul
                                        className={`${
-                                          title == "Mission & Vision" ? "list-none" : "list-decimal pl-6"
+                                          title == "Mission & Vision"
+                                             ? "list-none"
+                                             : "list-decimal pl-6"
                                        }  text-gray-700 space-y-2`}
                                     >
                                        {details.information.map((item, index) => (
@@ -103,10 +114,11 @@ const MissionAndVisionFirst = () => {
                className="object-cover w-[100%!important] h-[180px] rounded-[20px]"
             />
             <p>
-               The University is committed to cultivating an atmosphere where students excel spiritually and
-               academically. Accordingly, the University has elected to undergo institutional accreditation with the
-               Transnational Association of Christian Colleges and Schools. We are actively working to meet the
-               necessary standards through a comprehensive assessment that will verify compliance.
+               The University is committed to cultivating an atmosphere where students excel
+               spiritually and academically. Accordingly, the University has elected to undergo
+               institutional accreditation with the Transnational Association of Christian Colleges
+               and Schools. We are actively working to meet the necessary standards through a
+               comprehensive assessment that will verify compliance.
             </p>
          </div>
       </>

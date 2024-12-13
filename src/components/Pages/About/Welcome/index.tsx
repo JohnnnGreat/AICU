@@ -46,7 +46,7 @@ const Welcome = () => {
                   who serve those around them with empathy and integrity.
                </p>
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  Thank you for considering the Redeemers University North America as a place where
+                  Thank you for considering the American International Christian University as a place where
                   you can learn, grow, and thrive. I invite you to continue engaging with our AICU
                   community via our website and social media. I look forward to welcoming you to our
                   campus in person or virtually as we embark on this educational journey together.

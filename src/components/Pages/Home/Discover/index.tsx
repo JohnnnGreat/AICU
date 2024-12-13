@@ -12,7 +12,7 @@ const Discover: React.FC = () => {
       <div className="py-16 px-4 sm:px-6 lg:px-8">
          <div className="max-w-[1000px] mx-auto">
             <div className="my-8">
-               <h1 className="text-center text-[#4a5db4] text-3xl sm:text-4xl font-bold">Discover ALCU</h1>
+               <h1 className="text-center text-[#4a5db4] text-3xl sm:text-4xl font-bold">Discover AICU</h1>
                <p className="text-[#202020] text-center my-4 text-sm sm:text-base">
                   AICU envisions a teaching team that is focused on serving the nations. We desire to develop others who
                   will be servants to the nations.
