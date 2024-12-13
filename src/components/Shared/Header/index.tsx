@@ -1,10 +1,21 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import {
+   DropdownMenu,
+   DropdownMenuContent,
+   DropdownMenuItem,
+   DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { ChevronDown, Plus, Menu, X } from "lucide-react";
 import Link from "next/link";
-import { aboutDropdownContent, academicPrograms, admissionsContent, facultyOptions, otherNavItems } from "./constant";
+import {
+   aboutDropdownContent,
+   academicPrograms,
+   admissionsContent,
+   facultyOptions,
+   otherNavItems,
+} from "./constant";
 import Navbar from "./Top";
 
 const Header = () => {
@@ -29,7 +40,6 @@ const Header = () => {
    if (!isMounted) return null;
 
    const handleItemClick = () => {
-      alert("ee");
       setOpenDropdown(null); // Close the dropdown when an item is clicked
    };
    return (
@@ -54,7 +64,8 @@ const Header = () => {
                      {/* About AICU Dropdown */}
                      <DropdownMenu>
                         <DropdownMenuTrigger className="flex items-center text-[15px] text-[#003399] hover:text-blue-700">
-                           <h1 className="leading-none">ABOUT AICU</h1> {/* <ChevronDown className="ml-1 h-4 w-4 leading-none" /> */}
+                           <h1 className="leading-none">ABOUT AICU</h1>{" "}
+                           {/* <ChevronDown className="ml-1 h-4 w-4 leading-none" /> */}
                            <Plus className="h-2 w-2 ml-1" />
                         </DropdownMenuTrigger>
                         <DropdownMenuContent className="w-[600px] p-[3rem]">
@@ -64,7 +75,9 @@ const Header = () => {
                                     key={section}
                                     className="space-y-3"
                                  >
-                                    <h3 className="font-semibold text-blue-900 text-sm">{section}</h3>
+                                    <h3 className="font-semibold text-blue-900 text-sm">
+                                       {section}
+                                    </h3>
                                     <div className="flex flex-col space-y-2">
                                        {items.map((item) =>
                                           item.isButton ? (
@@ -103,7 +116,9 @@ const Header = () => {
                                     key={section}
                                     className="space-y-4"
                                  >
-                                    <h3 className="font-semibold text-blue-900 text-sm border-b border-blue-900 pb-2">{section}</h3>
+                                    <h3 className="font-semibold text-blue-900 text-sm border-b border-blue-900 pb-2">
+                                       {section}
+                                    </h3>
                                     <div className="flex flex-col space-y-3">
                                        {items.map((item, index) =>
                                           item.img ? (
@@ -152,7 +167,9 @@ const Header = () => {
                                     key={section}
                                     className="space-y-4"
                                  >
-                                    <h3 className="font-semibold text-blue-900 text-sm border-b border-blue-900 pb-2">{section}</h3>
+                                    <h3 className="font-semibold text-blue-900 text-sm border-b border-blue-900 pb-2">
+                                       {section}
+                                    </h3>
                                     <div className="flex flex-col space-y-3">
                                        {items.map((item, index) =>
                                           item.img ? (
@@ -218,7 +235,9 @@ const Header = () => {
                                           />
                                        </div>
                                        <div>
-                                          <h3 className="font-semibold text-blue-900 text-sm border-b border-blue-900 pb-2">{section}</h3>
+                                          <h3 className="font-semibold text-blue-900 text-sm border-b border-blue-900 pb-2">
+                                             {section}
+                                          </h3>
                                           <div className="flex flex-col space-y-3 mt-[1rem]">
                                              {items.map((item, index) => (
                                                 <Link
@@ -353,7 +372,9 @@ const MobileDropdown = ({ title, content, isOpen, onToggle, onItemClick }) => {
             className="w-full flex justify-between items-center px-4 py-3 text-blue-900 hover:bg-blue-50"
          >
             {title}
-            <Plus className={`h-4 w-4 transform transition-transform ${isOpen ? "rotate-45" : ""}`} />
+            <Plus
+               className={`h-4 w-4 transform transition-transform ${isOpen ? "rotate-45" : ""}`}
+            />
          </button>
          {isOpen && (
             <div className="bg-blue-50 p-4">
