@@ -9,9 +9,9 @@ const MissionAndVisionFirst = () => {
    const content = {
       "Mission & Vision": {
          information: [
-            "mission: At AICU, our mission is to cultivate a Christ-centered community that develops leaders as ambassadors of Jesus Christ, promoting spiritual growth, moral integrity, and academic excellence to advance God's Kingdom in a diverse world.",
+            "Mission: At AICU, our mission is to cultivate a Christ-centered community that develops leaders as ambassadors of Jesus Christ, promoting spiritual growth, moral integrity, and academic excellence to advance God's Kingdom in a diverse world.",
 
-            "vision: Our vision is to be a globally recognized institution that shapes Christ-centered leaders who excel academically and advance God's Kingdom through transformative innovation in society.",
+            "Vision: Our vision is to be a globally recognized institution that shapes Christ-centered leaders who excel academically and advance God's Kingdom through transformative innovation in society.",
          ],
       },
       "Statement of Faith": {

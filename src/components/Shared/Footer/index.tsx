@@ -46,7 +46,13 @@ const footerData = {
 
 const Footer = () => {
    return (
-      <footer className="bg-[#19293d] text-white  ">
+      <footer className="bg-[#19293d] text-white  relative">
+         <button
+            className="fixed bottom-4 right-4 bg-[#0d0c37] text-white p-3 rounded-full shadow-lg hover:bg-[#af9e5a] transition duration-300"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+         >
+            ⬆️
+         </button>
          <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 1000 100"

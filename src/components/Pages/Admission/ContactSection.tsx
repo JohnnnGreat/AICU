@@ -65,7 +65,7 @@ const ContactSection: React.FC = () => {
                      href="tel:214-500-4893"
                      className="text-gray-700 hover:text-[#4052B5]"
                   >
-                     214 500 4893
+                     803 372 08012
                   </a>
                </div>
 
@@ -78,7 +78,7 @@ const ContactSection: React.FC = () => {
                      href="mailto:admissions@rccgnaseminary.org"
                      className="text-gray-700 hover:text-[#4052B5]"
                   >
-                     admissions@rccgnaseminary.org
+                     aicuglobalconnect@gmail.com
                   </a>
                </div>
             </div>
