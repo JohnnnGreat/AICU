@@ -89,7 +89,7 @@ const AtGlanceComponent = () => {
             </div>
          </div>
 
-         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-[1100px] p-4 md:p-8 mx-auto items-center">
+         {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-[1100px] p-4 md:p-8 mx-auto items-center">
             <div className="w-full max-w-[400px] mx-auto md:mx-0">
                <img
                   src="/about/al-8.jpg"
@@ -113,7 +113,7 @@ const AtGlanceComponent = () => {
                   A MESSAGE FROM THE PRESIDENT
                </Link>
             </div>
-         </div>
+         </div> */}
 
          <section className="text-center py-8 md:py-16 bg-white">
             <h2 className="text-lg md:text-xl font-bold text-[#4A5DB4] mb-6">Programs Offered</h2>

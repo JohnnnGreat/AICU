@@ -4,13 +4,13 @@ export const aboutDropdownContent = {
       { label: "AICU at a Glance", href: "/about/at-a-glance" },
       { label: "AICU's Mission", href: "/about/mission" },
       { label: "AICU's History", href: "/about/history" },
-      { label: "Students Achievement Rate", href: "/about/student-achievement-rate" },
+      // { label: "Students Achievement Rate", href: "/about/student-achievement-rate" },
       { label: "Accreditation", href: "/about/accreditation", isButton: true },
    ],
    LEADERSHIP: [
       { label: "Our Chancellor", href: "/about/our-chancellor" },
-      { label: "Pro-Chancellor", href: "/about/pro-chancellor" },
-      { label: "President", href: "/about/president" },
+      // { label: "Pro-Chancellor", href: "/about/pro-chancellor" },
+      // { label: "President", href: "/about/president" },
       { label: "Board of Trustees", href: "/about/board-of-trustees" },
    ],
    MEDIA: [

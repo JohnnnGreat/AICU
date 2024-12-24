@@ -7,42 +7,29 @@ const History = () => {
          <div className="max-w-[1100px] mx-auto  grid grid-cols-1 md:grid-cols-2 gap-[2rem]">
             <div>
                <h1 className="text-pri text-[2rem] font-bold ">Our History</h1>
+
                <p className="text-[#00000094] mt-[1rem] leading-relaxed">
-                  {" "}
-                  American International Christian University (AICU), formerly known as Redeemed Christian Church of God North
-                  America Seminary, was founded by the Redeemed Christian Church of God in 2012.{" "}
-                  <a
-                     target="_black"
-                     href="https://rccgna.org/"
-                     className="text-pri"
-                  >
-                     The Redeemed Christian Church of God (RCCG)
-                  </a>{" "}
-                  is a worldwide organization of churches and key ministries. Founded in Nigeria in 1952, RCCG has
-                  expanded into various regions, such as the Middle East, South America, Australia, and North America.
+                  Founded with a vision to provide a transformative education rooted in Christian
+                  values, American International Christian University (AICU) has a rich history of
+                  academic excellence, spiritual growth, and global engagement. Established in 2015,
+                  AICU set out to create an institution that would not only prepare students for
+                  professional success but also shape them into compassionate, ethical leaders who
+                  can make a positive impact in the world. From its humble beginnings, AICU has
+                  grown into a renowned university that attracts students from all corners of the
+                  globe, united by a shared commitment to knowledge, faith, and service.
                </p>
                <p className="text-[#00000094] mt-[1rem] leading-relaxed">
-                  <a
-                     target="_black"
-                     href="https://rccgna.org/"
-                     className="text-pri"
-                  >
-                     The Redeemed Christian Church of God (RCCG)
-                  </a>{" "}
-                  (RCCGNA) began in Detroit in 1991 and now has over 800 churches across the United States and Canada.
-                  RCCG is led by Pastor E.A. Adeboye, and its primary mission is twofold: to make heaven and take as
-                  many people with us as possible. RCCG founded RCCGNA Seminary in August of 2012 to train true
-                  ambassadors for Christ who would help further this mission. The Seminary provided a
-                  biblically-centered education through classroom and online teaching with focused instruction on
-                  Biblical studies, theology, pastoral leadership, and ministry. Its pedagogy centered around meeting
-                  the needs of the local church. The University transitioned from RCCGNA Seminary to AICU in 2023.
-               </p>
-               <p className="text-[#00000094] mt-[1rem] leading-relaxed">
-                  At AICU today, we strive to cultivate a community of lifelong learners who are deeply rooted in
-                  Scripture, committed to excellence in ministry, and passionate about advancing the Kingdom of God.
-                  With a firm foundation in God’s Word and a heart for service, our students are prepared to fulfill
-                  their calling as ambassadors of Jesus Christ, bringing hope, healing, and transformation to
-                  individuals and communities around the world.
+                  Over the years, AICU has consistently expanded its academic offerings to meet the
+                  changing demands of the global job market while staying true to its core mission
+                  of integrating Christian principles into every aspect of education. The
+                  university’s faculty and staff have been instrumental in nurturing a diverse,
+                  inclusive community that fosters academic achievement, personal growth, and
+                  spiritual development. Through innovative teaching, research, and community
+                  engagement, AICU has established itself as a leader in higher education, with a
+                  strong emphasis on preparing students to lead with integrity and contribute
+                  meaningfully to society. Today, AICU stands as a beacon of excellence, continually
+                  striving to provide students with the tools and resources they need to succeed in
+                  an ever-changing world.
                </p>
 
                <Link

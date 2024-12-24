@@ -178,7 +178,7 @@ const Footer = () => {
                />
 
                <p className="text-sm text-gray-400 mb-4 text-center">
-                  © 2024 AICU. All Rights Reserved <br /> Web Design & Hosting by Diplomat
+                  © 2024 AICU. All Rights Reserved <br /> Web Design & Hosting by The Diplomats
                </p>
 
                {/* Social Media Links */}
