@@ -22,7 +22,7 @@ const LinksShared = () => {
                </Link>
                <Link
                   className="bg-[#60C087] text-center py-[.8rem] px-[3rem] rounded text-white uppercase"
-                  href="/about/"
+                  href="/about/board-of-trustees"
                >
                   Board Of Trustees
                </Link>

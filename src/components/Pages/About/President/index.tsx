@@ -20,7 +20,7 @@ const President = () => {
             {/* Image of the President */}
             <div className="flex justify-center">
                <img
-                  src="/about/mission-ten.jpg"
+                  src="/new/n-11.jpg"
                   alt="President"
                   className="w-[80%] h-auto rounded-lg shadow-lg"
                />
@@ -28,46 +28,28 @@ const President = () => {
 
             {/* Text Content */}
             <div className="md:ml-8 mt-4 md:mt-0 max-w-2xl">
+               <h2 className="text-[18px] font-bold mb-4">A Visionary Leader at the Helm</h2>
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  Dr. Olushola Awobajo is a distinguished religious leader renowned for his extensive experience in
-                  pastoral ministry and church planting. Currently serving as the President of Redeemers University
-                  North America (formerly RCCGNA Seminary), Dr. Awobajo brings over three decades of invaluable
-                  expertise to the institution.
+                  Grace and peace to you from God our Father and the Lord Jesus Christ.
                </p>
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  His journey in America began with establishing RCCG Isaac Generation Assembly in Houston, TX, in
-                  October 2000, where he served as the founding Pastor. Under his visionary leadership, the church
-                  experienced remarkable growth and influence, emerging as a beacon of spiritual inspiration. Dr.
-                  Awobajo’s leadership led to the establishment of over 17 other churches throughout Texas, highlighting
-                  his dedication to spreading the church’s mission and values.
+                  At AICU, we are proud to be guided by our esteemed Chancellor, Dr. Akinsola Kings
+                  Ojo. With a distinguished career in academia, leadership, and innovation, Dr. Ojo
+                  brings a wealth of experience and a forward-thinking approach to shaping the
+                  future of education at our institution.
                </p>
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  Academically, Dr. Awobajo holds a Master of Divinity (M Div.) degree from the esteemed Houston
-                  Graduate School of Theology, along with a Doctor of Ministry (D Min.) from Talbot School of Theology,
-                  Biola University California, reflecting his commitment to scholarly pursuits and continuous spiritual
-                  growth.
+                  A Message from Our Chancellor “Education is the cornerstone of progress and
+                  empowerment. At AICU, we are committed to nurturing talent, fostering innovation,
+                  and creating opportunities that pave the way for a brighter tomorrow.”
                </p>
                <p className="text-gray-700 mb-4 text-[.8rem]">
-                  From 2013 to 2017, Dr. Awobajo served as the Head of the Department of the School of Global Missions
-                  and Intercultural Studies at RCCGNA Seminary, where he played a pivotal role in shaping the curriculum
-                  and guiding students in their academic and spiritual endeavors. Recognized for his exemplary
-                  leadership and academic excellence, he was appointed the First Chief Academic Officer of RCCGNA
-                  Seminary from 2014 to 2018, leading initiatives to enhance educational standards and foster a
-                  conducive learning environment.
+                  A Message to Students “To all our students: You are the heart of AICU. Your
+                  journey here is one of discovery, growth, and achievement. Together, let’s shape a
+                  future that reflects the best of who we are and what we can achieve.”
                </p>
-               <p className="text-gray-700 mb-4 text-[.8rem]">
-                  In his dedication to the advancement of theological education, Dr. Awobajo has served as a Member of
-                  the Board of Trustees of RCCGNA Seminary since 2018. He contributes his wealth of experience and
-                  wisdom to strategic decision-making processes, ensuring the institution’s continued growth and
-                  success.
-               </p>
-               <p className="text-gray-700 mb-4 text-[.8rem]">
-                  Outside of his professional endeavors, Dr. Awobajo is a devoted family man, married to Pastor Mrs.
-                  Lola Awobajo. Together, they have been blessed with six children and six grandchildren, embracing the
-                  importance of family values alongside their commitment to ministry.
-               </p>
-
-               <p className="text-gray-700 italic text-[.8rem] font-bold">Shola Awobajo | President</p>
+               <p className="text-gray-700 italic text-[1rem]">Dr. Akinsola Kings Ojo</p>
+               <p className="font-bold">President, AICU</p>
             </div>
          </section>
 

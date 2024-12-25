@@ -26,10 +26,12 @@ const Bot = () => {
                            className="w-[full] hover:grayscale rounded-[9px]"
                         />
                         <div className="text-center mt-[.8rem]">
-                           <h1 className="text-[#2A3E9E] text-[1.6rem] font-bold leading-[1]">{val.name}</h1>
-                           <p className="font-bold my-[.2rem] text-[.95rem]">{val.position}</p>
+                           <h1 className="text-[#2A3E9E] text-[1.6rem] font-bold leading-[1]">
+                              {val.name}
+                           </h1>
+                           {/* <p className="font-bold my-[.2rem] text-[.95rem]">{val.position}</p>
                            <p className="text-bold my-[.2rem] text-[.95rem]">{val.title}</p>
-                           <p className="text-bold my-[.2rem] text-[.95rem]">{val.organization}</p>
+                           <p className="text-bold my-[.2rem] text-[.95rem]">{val.organization}</p> */}
                         </div>
                      </div>
                   ))}

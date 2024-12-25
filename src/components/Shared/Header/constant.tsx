@@ -9,8 +9,8 @@ export const aboutDropdownContent = {
    ],
    LEADERSHIP: [
       { label: "Our Chancellor", href: "/about/our-chancellor" },
-      // { label: "Pro-Chancellor", href: "/about/pro-chancellor" },
-      // { label: "President", href: "/about/president" },
+      { label: "Pro-Chancellor", href: "/about/pro-chancellor" },
+      { label: "President", href: "/about/president" },
       { label: "Board of Trustees", href: "/about/board-of-trustees" },
    ],
    MEDIA: [
