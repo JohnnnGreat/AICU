@@ -28,7 +28,9 @@ const Navbar = () => {
                </div>
 
                {/* Button */}
-               <Button className="bg-transparent px-8 py-2 text-xs font-bold text-white hover:bg-[#CAA71D] border border-[#af9e5a] rounded-full">GIVE TO AICU</Button>
+               <Button className="bg-transparent px-8 py-2 text-xs font-bold text-white hover:bg-[#CAA71D] border border-[#af9e5a] rounded-full">
+                  GIVE TO AICU
+               </Button>
             </div>
             {/* Right side - Links */}
             <div className="flex items-center gap-4 text-white text-xs font-medium">
@@ -40,7 +42,7 @@ const Navbar = () => {
                </Link>
                <span className="text-gray-500">|</span>
                <Link
-                  href="#"
+                  href="/contact"
                   className="hover:text-[#CAA71D] transition-colors"
                >
                   Contact Us
