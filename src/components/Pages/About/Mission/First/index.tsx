@@ -80,7 +80,7 @@ We are committed to cultivating a culture that reflects the highest ethical stan
                                     </p>
                                     <ul
                                        className={`${
-                                          title == "Mission & Vision"
+                                          title == "Mission & Vision" || "Statement of Faith"
                                              ? "list-none"
                                              : "list-decimal pl-6"
                                        }  text-gray-700 space-y-2`}

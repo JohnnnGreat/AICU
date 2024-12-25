@@ -14,13 +14,13 @@ const steps = [
       id: 2,
       title: "Submit all required materials",
       buttonLabel: "View Requirements",
-      href: "/apply",
+      href: "/admissions/requirements-for-admission",
    },
    {
       id: 3,
       title: "Pay all required fees",
       buttonLabel: "TUITION AND FEES",
-      href: "/apply",
+      href: "/admissions/tuition-fees",
    },
 ];
 

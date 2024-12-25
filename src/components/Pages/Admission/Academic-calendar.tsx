@@ -55,7 +55,7 @@ const AcademicCalendarSection: React.FC = () => {
                      <h3 className="text-xl font-semibold my-2">Academic Calendar 2023-24</h3>
                      <a
                         target="_blank"
-                        href="/admission/Academic-Calendar-2023-24.pdf"
+                        href="/"
                         className="text-[#4052B5] font-medium hover:underline"
                      >
                         Click here to Download
@@ -74,7 +74,7 @@ const AcademicCalendarSection: React.FC = () => {
                      <h3 className="text-xl font-semibold my-2">Academic Calendar 2024-25</h3>
                      <a
                         target="_blank"
-                        href="/admission/Academic-Calendar-2024-25.pdf"
+                        href="/"
                         className="text-[#4052B5] font-medium hover:underline"
                      >
                         Click here to Download

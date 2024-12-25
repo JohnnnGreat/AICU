@@ -10,13 +10,13 @@ interface StaffMember {
 
 const staffMembers: StaffMember[] = [
    {
-      image: "/admission/ad-six.jpg",
-      name: "Dr. Funmi Ebiwonjumi",
+      image: "/new/n-1.jpg",
+      name: "Dr. Akinsola Kings Ojo",
       link: "#",
    },
    {
-      image: "/admission/ad-seven.jpg",
-      name: "Bola Oginni",
+      image: "/new/n-2.jpg",
+      name: "Dr. Douglas Barnett",
       link: "#",
    },
 ];
@@ -44,12 +44,9 @@ const ContactSection: React.FC = () => {
                            className="w-full h-full object-cover rounded-lg"
                         />
                      </div>
-                     <a
-                        href={member.link}
-                        className="text-[#4052B5] text-lg font-medium hover:underline"
-                     >
+                     <p className="text-[#4052B5] text-lg font-medium hover:underline">
                         {member.name}
-                     </a>
+                     </p>
                   </div>
                ))}
             </div>
@@ -62,7 +59,7 @@ const ContactSection: React.FC = () => {
                      <Phone className="w-6 h-6 text-white" />
                   </div>
                   <a
-                     href="tel:214-500-4893"
+                     href="tel:80337208012"
                      className="text-gray-700 hover:text-[#4052B5]"
                   >
                      803 372 08012
@@ -75,7 +72,7 @@ const ContactSection: React.FC = () => {
                      <Mail className="w-6 h-6 text-white" />
                   </div>
                   <a
-                     href="mailto:admissions@rccgnaseminary.org"
+                     href="/"
                      className="text-gray-700 hover:text-[#4052B5]"
                   >
                      aicuglobalconnect@gmail.com

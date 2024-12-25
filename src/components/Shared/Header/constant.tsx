@@ -29,7 +29,7 @@ export const admissionsContent = {
    ],
    "INTERNATIONAL STUDENTS": [
       { label: "Complete Guide & Check List", href: "/admissions/guide" },
-      { label: "Financial Information", href: "/admissions/financial-info" },
+      { label: "Financial Information", href: "/admissions/financial-information" },
       {
          label: "Apply for Undergraduate & Masters",
          href: "/admissions/apply-for-undergraduate-and-masters",
@@ -39,7 +39,7 @@ export const admissionsContent = {
    ],
    "FINANCIAL INFO": [
       { label: "Tuition & Fees", href: "/admissions/tuition-fees" },
-      { label: "Financial Aid", href: "/financial/aid" },
+      { label: "Financial Aid", href: "/admissions/financial-aid" },
       { label: "Add/Drop Dates & Refund", href: "/admissions/add-drop-date-refunds" },
       { img: "/admission/ad-ten.jpg", alt: "Financial Information" },
    ],
