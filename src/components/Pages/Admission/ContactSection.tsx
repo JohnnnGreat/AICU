@@ -75,7 +75,7 @@ const ContactSection: React.FC = () => {
                      href="/"
                      className="text-gray-700 hover:text-[#4052B5]"
                   >
-                     aicuglobalconnect@gmail.com
+                     aicuglobalcampusreignition@gmail.com
                   </a>
                </div>
             </div>
